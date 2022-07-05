@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/EscenaDummy.unity
     guid: 7b78e3a3be82dda47a2c40b9def97fdb
   - enabled: 1
-    path: Assets/Actividades/IC006/escena/Actividad Mago.unity
+    path: Assets/Actividades/IC006 - Emojis/escena/Actividad Mago.unity
     guid: 5e098a78ea721b44ebc47abc2c69a97c
+  - enabled: 1
+    path: Assets/Actividades/IB010 - Conejo Piren/IB010 Conejo Piren.unity
+    guid: f210f10cb86abd94f9c22ad8720d9d91
   m_configObjects: {}

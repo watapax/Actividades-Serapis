@@ -13,7 +13,7 @@ public class Emparejar : MonoBehaviour
     bool emparejado;
     bool onRange;
 
-    public void SetStartPosition()
+    private void Awake()
     {
         startPosition = transform.position;
     }
@@ -40,12 +40,9 @@ public class Emparejar : MonoBehaviour
 
     IEnumerator Interpolar(Vector3 target)
     {
-        if (!onRange)
-            onTry.Invoke();
-
         Vector3 from = transform.position;
         float t = 0;
-        float duracion = 0.5f;
+        float duracion = 0.3f;
         while(t < duracion)
         {
             t += Time.deltaTime;
@@ -55,7 +52,8 @@ public class Emparejar : MonoBehaviour
             yield return null;
         }
 
-        
+        if (!onRange)
+            onTry.Invoke();
     }
 
 

@@ -9,7 +9,7 @@ public class DragNdrop : MonoBehaviour
     public GameObject destacador;
     bool blockDrag;
     bool isDragging;
-    public bool blockComponent;
+    bool blockComponent;
 
     private void Awake()
     {
@@ -23,7 +23,7 @@ public class DragNdrop : MonoBehaviour
 
         isDragging = true;
         Vector3 mousePos = Input.mousePosition;
-        mousePos.z = Mathf.Abs(Camera.main.transform.position.z) + transform.position.z;
+        mousePos.z = Mathf.Abs(Camera.main.transform.position.z);
         Vector3 worldPos = Camera.main.ScreenToWorldPoint(mousePos);
         diferencia = transform.position - worldPos;
         onMouseDown.Invoke();
@@ -36,7 +36,7 @@ public class DragNdrop : MonoBehaviour
         if (blockDrag) return;
 
         Vector3 mousePos = Input.mousePosition;
-        mousePos.z = Mathf.Abs(Camera.main.transform.position.z) + transform.position.z;
+        mousePos.z = Mathf.Abs(Camera.main.transform.position.z);
         Vector3 worldPos = Camera.main.ScreenToWorldPoint(mousePos);
         transform.position = worldPos + diferencia;
         
@@ -54,8 +54,6 @@ public class DragNdrop : MonoBehaviour
     public void BloquearDrag() => blockDrag = true;
     public void DesbloquearDrag() => blockDrag = false;
     public void BloquearComponente() => blockComponent = true;
-    public void DesbloquearComponente() => blockComponent = false;
-
 
 
     public void SwitchDestacador(bool state)
