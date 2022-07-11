@@ -685,7 +685,7 @@ VideoPlayer:
   - {fileID: 0}
   m_DirectAudioVolumes:
   - 1
-  m_Url: http://18.220.231.171/Manzanas.mp4
+  m_Url: https://storage.googleapis.com/videosactividades/ActividadConejoPiren/02%20Manzanas.mp4
   m_EnabledAudioTracks: 01
   m_DirectAudioMutes: 00
   m_ControlledAudioTrackCount: 1
@@ -3144,7 +3144,7 @@ VideoPlayer:
   - {fileID: 0}
   m_DirectAudioVolumes:
   - 1
-  m_Url: http://18.220.231.171/Final.mp4
+  m_Url: https://storage.googleapis.com/videosactividades/ActividadConejoPiren/04%20final.mp4
   m_EnabledAudioTracks: 01
   m_DirectAudioMutes: 00
   m_ControlledAudioTrackCount: 1
@@ -3550,7 +3550,7 @@ VideoPlayer:
   - {fileID: 0}
   m_DirectAudioVolumes:
   - 1
-  m_Url: http://18.220.231.171/Puente.mp4
+  m_Url: https://storage.googleapis.com/videosactividades/ActividadConejoPiren/01%20Puente.mp4
   m_EnabledAudioTracks: 01
   m_DirectAudioMutes: 00
   m_ControlledAudioTrackCount: 1
@@ -5122,7 +5122,7 @@ VideoPlayer:
   - {fileID: 0}
   m_DirectAudioVolumes:
   - 1
-  m_Url: http://18.220.231.171/Casa.mp4
+  m_Url: https://storage.googleapis.com/videosactividades/ActividadConejoPiren/03%20Casa.mp4
   m_EnabledAudioTracks: 01
   m_DirectAudioMutes: 00
   m_ControlledAudioTrackCount: 1

@@ -12,6 +12,7 @@ public class VideoEvents : MonoBehaviour
 
     private void Start()
     {
+        videoPlayer = GetComponent<VideoPlayer>();  
         videoPlayer.loopPointReached += EndVideo;
     }
 
