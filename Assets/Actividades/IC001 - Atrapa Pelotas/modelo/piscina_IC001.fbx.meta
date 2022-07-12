@@ -3,7 +3,17 @@ guid: 7b32372f8eec923428a8012c401c1940
 ModelImporter:
   serializedVersion: 21202
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: piscina
+    second: {fileID: 2100000, guid: a14c93948b8ef6540842b40d007208ef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rsMaterial33
+    second: {fileID: 2100000, guid: 8140d06cbf70d7f47ac295a68999711e, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -47,7 +57,7 @@ ModelImporter:
     nodeNameCollisionStrategy: 1
     fileIdsGeneration: 2
     swapUVChannels: 0
-    generateSecondaryUV: 0
+    generateSecondaryUV: 1
     useFileUnits: 1
     keepQuads: 0
     weldVertices: 1
