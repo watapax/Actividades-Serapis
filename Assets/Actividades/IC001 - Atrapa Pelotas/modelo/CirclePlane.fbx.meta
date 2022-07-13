@@ -1,19 +1,9 @@
 fileFormatVersion: 2
-guid: 4229a85084747174187b1c724a468c5d
+guid: 90230b332ac43944e9b2a3ea05acd50d
 ModelImporter:
   serializedVersion: 21202
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: cercas
-    second: {fileID: 2100000, guid: 635ae5d1a6f0da54e85f5e1f8f074d05, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: tienda1
-    second: {fileID: 2100000, guid: 48a9f2518e5c41b43a5022b82c0fbce6, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -57,7 +47,7 @@ ModelImporter:
     nodeNameCollisionStrategy: 1
     fileIdsGeneration: 2
     swapUVChannels: 0
-    generateSecondaryUV: 1
+    generateSecondaryUV: 0
     useFileUnits: 1
     keepQuads: 0
     weldVertices: 1
