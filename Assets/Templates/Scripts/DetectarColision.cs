@@ -23,14 +23,14 @@ public class DetectarColision : MonoBehaviour
     public List<Evento> onEnter = new List<Evento>();
     public List<Evento> onStay = new List<Evento>();
     public List<Evento> onExit = new List<Evento>();
+    public List<Evento> onColission3D = new List<Evento>();
 
     bool cancelarDeteccion;
 
-
+    // 2D
     private void OnTriggerEnter2D(Collider2D collision)
     {
         RecorrerLista(onEnter, collision.tag);
-
     }
 
     private void OnTriggerStay2D(Collider2D collision)
@@ -40,9 +40,18 @@ public class DetectarColision : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        RecorrerLista(onExit, collision.tag);
-
+        
     }
+
+    //3D
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        RecorrerLista(onColission3D, collision.transform.tag);
+    }
+
+
+
 
     void RecorrerLista(List<Evento> _evento, string _tag)
     {

@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Actividades/IC001 - Atrapa Pelotas/escenas/atrapa pelotas.unity
     guid: d1701275b785c9e47a66d0f512886e79
+  - enabled: 1
+    path: Assets/Actividades/IC007 - Rincon de la Lectura/ic007.unity
+    guid: 68bd610368348894f84267179a7e7389
   m_configObjects: {}
