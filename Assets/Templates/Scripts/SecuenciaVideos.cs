@@ -2,9 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Video;
+using UnityEngine.Events;
 public class SecuenciaVideos : MonoBehaviour
 {
     public VideoPlayer videoPlayer;
+    public UnityEvent onEndSequence;
     public string[] urlVideos;
     int index = 0;
 
@@ -15,7 +17,11 @@ public class SecuenciaVideos : MonoBehaviour
 
     public void NextVideo()
     {
-        if (index == urlVideos.Length) return;
+        if (index == urlVideos.Length)
+        {
+            onEndSequence.Invoke();
+            return;
+        }
 
         videoPlayer.url = urlVideos[index];
         videoPlayer.Prepare();
