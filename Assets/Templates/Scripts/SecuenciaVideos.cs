@@ -17,6 +17,11 @@ public class SecuenciaVideos : MonoBehaviour
         videoPlayer.prepareCompleted += Prepared;
     }
 
+    private void OnDisable()
+    {
+        videoPlayer.prepareCompleted -= Prepared;
+    }
+
     public void NextVideo()
     {
         if (index == urlVideos.Length)
