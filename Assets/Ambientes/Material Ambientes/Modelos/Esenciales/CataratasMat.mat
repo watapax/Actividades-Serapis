@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: CataratasMat
+  m_Shader: {fileID: -6465566751694194690, guid: 36a5af2dcafc90442a7547d368bfe4f9, type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - Vector1_086fe45c7e904946802c706290e286a3: 1.56
+    - Vector1_636eb643add04a80bf4a977f954af4cb: 1.4
+    - Vector1_6756b06e55204440a04d52ce4027f013: 0.12
+    - Vector1_7322f9a808344fce803875c3b20a9eed: 5
+    - Vector1_8aec61bf3b974543ae4b0741e4e72c25: 0.4
+    - Vector1_f481197c76644d1c9e4976966b60162d: 1
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    m_Colors:
+    - Color_4ccdb13d66114a6e8e423dbbbbd5cea7: {r: 0.06301003, g: 0.23839766, b: 0.29613832, a: 1}
+    - Color_63bedb6b78134191b1036828931683c6: {r: 0.05951124, g: 0.2422812, b: 0.30054384, a: 1}
+    - Vector2_6a52495441da45dc9ce2c552b01e933a: {r: 0, g: -0.5, b: 0, a: 0}
+    - Vector2_7b54a4e9d442410999394cf13ea9b788: {r: 0, g: 0.6, b: 0, a: 0}
+    - Vector2_9234cb3e69574fa9b36d2ccf3b2a9af3: {r: 1.2, g: -0.6, b: 0, a: 0}
+  m_BuildTextureStacks: []
+--- !u!114 &8264513026422814528
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 5
