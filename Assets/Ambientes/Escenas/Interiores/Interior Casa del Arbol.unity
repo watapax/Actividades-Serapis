@@ -6653,6 +6653,7 @@ GameObject:
   - component: {fileID: 6482072709697364380}
   - component: {fileID: 755824155640395410}
   - component: {fileID: 5637207158125624584}
+  - component: {fileID: 6482072709697364381}
   m_Layer: 0
   m_Name: Wolf3D_Outfit_Top.001
   m_TagString: Untagged
@@ -7550,6 +7551,7 @@ GameObject:
   - component: {fileID: 1767300774061782785}
   - component: {fileID: 2959078429393836499}
   - component: {fileID: 2025348973582157995}
+  - component: {fileID: 5548176773041377900}
   m_Layer: 0
   m_Name: Wolf3D_Outfit_Top
   m_TagString: Untagged
@@ -7557,6 +7559,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
   m_IsActive: 1
+--- !u!135 &5548176773041377900
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5548176773041377899}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.27
+  m_Center: {x: -0.12, y: 0.006212042, z: 0.26374978}
 --- !u!23 &5637207158125624584
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -7803,6 +7818,19 @@ Transform:
   m_Father: {fileID: 957737133842240060}
   m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &6482072709697364381
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1480138777449321857}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.28060448
+  m_Center: {x: -2.0652966, y: -1.5470552, z: 0.64646393}
 --- !u!1 &6566187722056519311
 GameObject:
   m_ObjectHideFlags: 0

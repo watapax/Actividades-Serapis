@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: bbbe2cda4f208714cb04e2a35718497d
+guid: 913dae4b590718a4ab1f90da2b46e3b8
 ModelImporter:
   serializedVersion: 21202
   internalIDToNameTable: []
@@ -7,13 +7,13 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Material.001
-    second: {fileID: 2100000, guid: b7562c1fa8fbc794ead1817279c2d0cd, type: 2}
+      name: BlackSpace
+    second: {fileID: 2100000, guid: 76969a7e67862fd4e9703b83bc9cf17b, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: mobile
-    second: {fileID: 2100000, guid: 724e8b8f6452ad145a31286de97ca95b, type: 2}
+      name: FakeStars
+    second: {fileID: 2100000, guid: 075bfd89917931c40855c7a2f9d42d82, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
