@@ -14,6 +14,11 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: mobile
     second: {fileID: 2100000, guid: 724e8b8f6452ad145a31286de97ca95b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: negro
+    second: {fileID: 2100000, guid: 9ad050b130eaa8a42ad18e5d1d317ad9, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
