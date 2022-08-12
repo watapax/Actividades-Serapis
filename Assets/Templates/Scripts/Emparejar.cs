@@ -5,13 +5,15 @@ using UnityEngine.Events;
 public class Emparejar : MonoBehaviour
 {
     public Transform pareja;
-    public UnityEvent onMatch, onTry;
+    public UnityEvent onMatch, onTry, onUnmatch;
     public bool moveToMatchPosition;
    
     Vector3 startPosition;
 
     bool emparejado;
     bool onRange;
+
+
 
     private void Awake()
     {
@@ -22,7 +24,16 @@ public class Emparejar : MonoBehaviour
 
     public void BuscarPareja()
     {
-        if (emparejado) return;
+        if (emparejado)
+        {
+            if (onRange) return;
+            else
+            {
+                StartCoroutine(Interpolar(startPosition));
+                onUnmatch.Invoke();
+                emparejado = false;
+            }
+        } 
         
         if(onRange)
         {
