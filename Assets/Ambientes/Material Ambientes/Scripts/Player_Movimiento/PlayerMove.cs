@@ -8,11 +8,7 @@ public class PlayerMove : MonoBehaviour
     public enum PlayerState
 	{
         Idle,
-        Caminando,
-        Saltando,
-        Cayendo,
-        Agachado,
-        CaminandoAga
+        Caminando
 	}
 
 
@@ -32,15 +28,14 @@ public class PlayerMove : MonoBehaviour
     Vector3 ccCenter;
     public PlayerState estadoJugador;
 
-    float alturaParado, alturaAgachado;
-    public bool canJump, canCrouch;
+
+
 
     // Start is called before the first frame update
     void Start()
     {
         
         cc = GetComponent<CharacterController>();
-        alturaParado = cc.height;
         ccCenter = cc.center;
 
     }
@@ -81,32 +76,7 @@ public class PlayerMove : MonoBehaviour
         moveDirection = moveDirection.normalized * speed;
         moveDirection.y = yStore;
 
-        if (cc.isGrounded)
-        {
 
-            moveDirection.y = 0;
-            if (Input.GetButtonDown("Jump") && canJump)
-            {
-                moveDirection.y = fuerzaSalto;
-            }
-
-            if(Input.GetButtonDown("Crouch") && canCrouch)
-			{
-                estaAgachado = !estaAgachado;
-			}
-
-            if(estaAgachado)
-			{
-                cc.height = 1;
-                cc.center = Vector3.zero;
-			}
-            else
-			{
-                cc.height = alturaParado;
-                cc.center = ccCenter;
-            }
-
-        }
 
         moveDirection.y = moveDirection.y + (Physics.gravity.y * multGravedad * Time.deltaTime);
 
@@ -141,54 +111,23 @@ public class PlayerMove : MonoBehaviour
         {
             estadoJugador = PlayerState.Caminando;
         }
-        if(!cc.isGrounded && cc.velocity.y > 0 && !estaAgachado || estaAgachado)
-		{
-            estadoJugador = PlayerState.Saltando;
-        }
-        if (!cc.isGrounded && cc.velocity.y < 0 && !estaAgachado || estaAgachado)
-        {
-            estadoJugador = PlayerState.Cayendo;
-        }
-        if (cc.isGrounded && cc.velocity == Vector3.zero && estaAgachado)
-        {
-            estadoJugador = PlayerState.Agachado;
-        }
-        if (cc.isGrounded && cc.velocity != Vector3.zero && estaAgachado)
-        {
-            estadoJugador = PlayerState.CaminandoAga;
-        }
+
+
 
 
         switch (estadoJugador)
         {
             case PlayerState.Idle:
-                Debug.Log("Idle");
                 Anim.GetComponent<Animator>().SetBool("isIdle", true);
                 Anim.GetComponent<Animator>().SetBool("isWalkActive", false);
                 break;
 
             case PlayerState.Caminando:
-                Debug.Log("Estoy caminando");
                 Anim.GetComponent<Animator>().SetBool("isIdle", false);
                 Anim.GetComponent<Animator>().SetBool("isWalkActive", true);
 
                 break;
 
-            case PlayerState.Saltando:
-
-                break;
-
-            case PlayerState.Cayendo:
-
-                break;
-
-            case PlayerState.Agachado:
-
-                break;
-
-            case PlayerState.CaminandoAga:
-
-                break;
         }
     }
 }
