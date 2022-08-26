@@ -23,4 +23,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Actividades/IC007 - Rincon de la Lectura/ic007.unity
     guid: 68bd610368348894f84267179a7e7389
+  - enabled: 1
+    path: Assets/Actividades/IC003 - Tiro al Blanco/IC003_tiroAlblanco.unity
+    guid: 32ec629ccfdcb5a4581594fbd40aad31
   m_configObjects: {}

@@ -25,13 +25,13 @@ public class ManagerTransicionCanvas : MonoBehaviour
 
     public void FadeInBlanco()
     {
-        if(!lerping)
+        //if(!lerping)
             StartCoroutine(Fade( blanco));
     }   
     
     public void FadeOutBlanco()
     {
-        if(!lerping)
+        //if(!lerping)
             StartCoroutine(Fade(transparente));
     }
 

@@ -5,35 +5,38 @@ using UnityEngine;
 
 public class ZonaAncla : MonoBehaviour
 {
-    public UnityEvent m_MyEvent;
-
-    public string anclaType;
+    public enum AnclaTypes {ZONA, ACTIVIDAD};
+    public AnclaTypes anclaType;
+    public string anclaSceneName;
     public string anclaName;
     public Sprite anclaThumbnail;
 
     private bool playerCanClick = false;
+    private bool isEnteringWorld = false;
+    private Transform returnPosHelper;
 
-
-    void Start()
+    private void Start()
     {
-        if (m_MyEvent == null)
-            m_MyEvent = new UnityEvent();
-        //StartCoroutine(WaitAndEnableClick);
+        returnPosHelper = transform.Find("ReturnPosHelper");
     }
 
-     void Update()
+    void Update()
     {
-        if (playerCanClick && Input.GetMouseButtonDown(0) && m_MyEvent != null)
+        if (playerCanClick && !isEnteringWorld && Input.GetMouseButtonDown(0))
         {
-            m_MyEvent.Invoke();
+            //m_MyEvent.Invoke();
+            ManagerEscenas.Instance.CargarEscena(anclaSceneName, returnPosHelper.position);
+            playerCanClick = false;
+            isEnteringWorld = true;
+            HUD.Instance.HideAnclaInfo();
         }
     }
 
     private void OnTriggerEnter(Collider other)
     {
         HUD.Instance.ShowAnclaInfo();
-        HUD.Instance.SetAnclaInfo(anclaType,anclaName, anclaThumbnail);
-        StartCoroutine(WaitAndEnableClick(0.5f, true));
+        HUD.Instance.SetAnclaInfo(anclaType.ToString(),anclaName, anclaThumbnail);
+        StartCoroutine(WaitAndEnableClick(0.6f, true));
     }
 
     private void OnTriggerExit(Collider other)

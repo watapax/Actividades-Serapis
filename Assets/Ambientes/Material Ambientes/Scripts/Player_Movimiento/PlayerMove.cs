@@ -28,8 +28,13 @@ public class PlayerMove : MonoBehaviour
     Vector3 ccCenter;
     public PlayerState estadoJugador;
 
+    public static PlayerMove Instance { get; private set; } //Singleton para posicionar al jugador despues de transiciones
 
 
+    private void Awake()
+    {
+        Instance = this; 
+    }
 
     // Start is called before the first frame update
     void Start()
