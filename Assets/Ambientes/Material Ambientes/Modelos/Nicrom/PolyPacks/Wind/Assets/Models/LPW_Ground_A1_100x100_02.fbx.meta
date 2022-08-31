@@ -1,14 +1,14 @@
 fileFormatVersion: 2
-guid: 21e4e23f629a66042b0804449f9cdf4e
+guid: 9900244c1a644074d9fb129310a0542b
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: //RootNode
     400000: //RootNode
-    2100000: No Name
+    2100000: NHP_TextureAtlas_01
     2300000: //RootNode
     3300000: //RootNode
-    4300000: LPW_Rock_Wall_A1_01
+    4300000: LPW_Ground_A1_100x100_02
   externalObjects: {}
   materials:
     importMaterials: 1
