@@ -9102,6 +9102,11 @@ PrefabInstance:
       objectReference: {fileID: 416150816}
     - target: {fileID: 6114149556244325602, guid: fcb4726d80944f847809bb89b983e7ac,
         type: 3}
+      propertyPath: IDAncla
+      value: LOBBYPLAZA
+      objectReference: {fileID: 0}
+    - target: {fileID: 6114149556244325602, guid: fcb4726d80944f847809bb89b983e7ac,
+        type: 3}
       propertyPath: anclaName
       value: ISLA PLAZA
       objectReference: {fileID: 0}
@@ -9109,6 +9114,32 @@ PrefabInstance:
         type: 3}
       propertyPath: anclaType
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6114149556244325602, guid: fcb4726d80944f847809bb89b983e7ac,
+        type: 3}
+      propertyPath: nombreAncla
+      value: ISLA PLAZA
+      objectReference: {fileID: 0}
+    - target: {fileID: 6114149556244325602, guid: fcb4726d80944f847809bb89b983e7ac,
+        type: 3}
+      propertyPath: nombreEscena
+      value: Isla Plaza
+      objectReference: {fileID: 0}
+    - target: {fileID: 6114149556244325602, guid: fcb4726d80944f847809bb89b983e7ac,
+        type: 3}
+      propertyPath: previewAncla
+      value: 
+      objectReference: {fileID: 21300000, guid: 26053a993ad74e04592cfa8ebed666b1,
+        type: 3}
+    - target: {fileID: 6114149556244325602, guid: fcb4726d80944f847809bb89b983e7ac,
+        type: 3}
+      propertyPath: IDAnclaDestino
+      value: PLAZA
+      objectReference: {fileID: 0}
+    - target: {fileID: 6114149556244325602, guid: fcb4726d80944f847809bb89b983e7ac,
+        type: 3}
+      propertyPath: anclaSceneName
+      value: Isla Plaza
       objectReference: {fileID: 0}
     - target: {fileID: 6114149556244325602, guid: fcb4726d80944f847809bb89b983e7ac,
         type: 3}
@@ -12546,12 +12577,12 @@ PrefabInstance:
     - target: {fileID: 54428438868588216, guid: fcb4726d80944f847809bb89b983e7ac,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.63
+      value: 0.885
       objectReference: {fileID: 0}
     - target: {fileID: 54428438868588216, guid: fcb4726d80944f847809bb89b983e7ac,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1.18
+      value: 1.015
       objectReference: {fileID: 0}
     - target: {fileID: 1388531711454590874, guid: fcb4726d80944f847809bb89b983e7ac,
         type: 3}
@@ -12630,6 +12661,11 @@ PrefabInstance:
       objectReference: {fileID: 416150816}
     - target: {fileID: 6114149556244325602, guid: fcb4726d80944f847809bb89b983e7ac,
         type: 3}
+      propertyPath: IDAncla
+      value: LOBBYTIRO
+      objectReference: {fileID: 0}
+    - target: {fileID: 6114149556244325602, guid: fcb4726d80944f847809bb89b983e7ac,
+        type: 3}
       propertyPath: anclaName
       value: TIRO AL BLANCO
       objectReference: {fileID: 0}
@@ -12638,6 +12674,27 @@ PrefabInstance:
       propertyPath: anclaType
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6114149556244325602, guid: fcb4726d80944f847809bb89b983e7ac,
+        type: 3}
+      propertyPath: tipoAncla
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6114149556244325602, guid: fcb4726d80944f847809bb89b983e7ac,
+        type: 3}
+      propertyPath: nombreAncla
+      value: TIRO AL BLANCO
+      objectReference: {fileID: 0}
+    - target: {fileID: 6114149556244325602, guid: fcb4726d80944f847809bb89b983e7ac,
+        type: 3}
+      propertyPath: nombreEscena
+      value: IC003_tiroAlBlanco
+      objectReference: {fileID: 0}
+    - target: {fileID: 6114149556244325602, guid: fcb4726d80944f847809bb89b983e7ac,
+        type: 3}
+      propertyPath: previewAncla
+      value: 
+      objectReference: {fileID: 21300000, guid: 3be6c5883a48d934883182e627a3c952,
+        type: 3}
     - target: {fileID: 6114149556244325602, guid: fcb4726d80944f847809bb89b983e7ac,
         type: 3}
       propertyPath: anclaSceneName
@@ -15085,6 +15142,11 @@ PrefabInstance:
       objectReference: {fileID: 416150816}
     - target: {fileID: 6114149556244325602, guid: fcb4726d80944f847809bb89b983e7ac,
         type: 3}
+      propertyPath: IDAncla
+      value: LOBBYPOOL
+      objectReference: {fileID: 0}
+    - target: {fileID: 6114149556244325602, guid: fcb4726d80944f847809bb89b983e7ac,
+        type: 3}
       propertyPath: anclaName
       value: ATRAPA PELOTAS
       objectReference: {fileID: 0}
@@ -15092,6 +15154,21 @@ PrefabInstance:
         type: 3}
       propertyPath: anclaType
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6114149556244325602, guid: fcb4726d80944f847809bb89b983e7ac,
+        type: 3}
+      propertyPath: nombreAncla
+      value: aksjkas
+      objectReference: {fileID: 0}
+    - target: {fileID: 6114149556244325602, guid: fcb4726d80944f847809bb89b983e7ac,
+        type: 3}
+      propertyPath: nombreEscena
+      value: Lobby
+      objectReference: {fileID: 0}
+    - target: {fileID: 6114149556244325602, guid: fcb4726d80944f847809bb89b983e7ac,
+        type: 3}
+      propertyPath: IDAnclaDestino
+      value: LOBBYBOSQUE
       objectReference: {fileID: 0}
     - target: {fileID: 6114149556244325602, guid: fcb4726d80944f847809bb89b983e7ac,
         type: 3}
@@ -39852,8 +39929,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4283689983
-  m_fontColor: {r: 1, g: 0.92053306, b: 0.3254717, a: 1}
+    rgba: 4294958467
+  m_fontColor: {r: 0.514151, g: 0.8659953, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -60231,6 +60308,16 @@ PrefabInstance:
       objectReference: {fileID: 416150816}
     - target: {fileID: 6114149556244325602, guid: fcb4726d80944f847809bb89b983e7ac,
         type: 3}
+      propertyPath: IDAncla
+      value: LOBBYBOSQUE
+      objectReference: {fileID: 0}
+    - target: {fileID: 6114149556244325602, guid: fcb4726d80944f847809bb89b983e7ac,
+        type: 3}
+      propertyPath: anclaID
+      value: LOBBY1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6114149556244325602, guid: fcb4726d80944f847809bb89b983e7ac,
+        type: 3}
       propertyPath: anclaName
       value: ISLA DEL BOSQUE
       objectReference: {fileID: 0}
@@ -60241,10 +60328,30 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6114149556244325602, guid: fcb4726d80944f847809bb89b983e7ac,
         type: 3}
+      propertyPath: nombreAncla
+      value: ISLA DEL BOSQUE
+      objectReference: {fileID: 0}
+    - target: {fileID: 6114149556244325602, guid: fcb4726d80944f847809bb89b983e7ac,
+        type: 3}
+      propertyPath: nombreEscena
+      value: Lobby
+      objectReference: {fileID: 0}
+    - target: {fileID: 6114149556244325602, guid: fcb4726d80944f847809bb89b983e7ac,
+        type: 3}
+      propertyPath: IDAnclaDestino
+      value: BOSQUE
+      objectReference: {fileID: 0}
+    - target: {fileID: 6114149556244325602, guid: fcb4726d80944f847809bb89b983e7ac,
+        type: 3}
       propertyPath: anclaThumbnail
       value: 
       objectReference: {fileID: -2413806693520163455, guid: de67d98e46901ba4ba301c9af4ec8323,
         type: 3}
+    - target: {fileID: 6114149556244325602, guid: fcb4726d80944f847809bb89b983e7ac,
+        type: 3}
+      propertyPath: anclaDestinationID
+      value: BOSQUE
+      objectReference: {fileID: 0}
     - target: {fileID: 6114149556244325602, guid: fcb4726d80944f847809bb89b983e7ac,
         type: 3}
       propertyPath: m_MyEvent.m_PersistentCalls.m_Calls.Array.size

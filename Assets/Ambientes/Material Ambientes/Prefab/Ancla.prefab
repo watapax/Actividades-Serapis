@@ -44,7 +44,7 @@ GameObject:
   - component: {fileID: 6114149556244325602}
   m_Layer: 7
   m_Name: Ancla
-  m_TagString: Untagged
+  m_TagString: Ancla
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -91,10 +91,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf00827de646568409f0e2ff4703f61e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  anclaType: 0
-  anclaSceneName: Lobby
-  anclaName: 
-  anclaThumbnail: {fileID: 0}
+  tipoAncla: 0
+  IDAncla: 
+  IDAnclaDestino: 
+  nombreEscena: 
+  nombreAncla: 
+  previewAncla: {fileID: 0}
+  returnPosHelper: {fileID: 0}
 --- !u!1 &7112519109683840325
 GameObject:
   m_ObjectHideFlags: 0

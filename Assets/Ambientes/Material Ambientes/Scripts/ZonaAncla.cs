@@ -6,16 +6,21 @@ using UnityEngine;
 public class ZonaAncla : MonoBehaviour
 {
     public enum AnclaTypes {ZONA, ACTIVIDAD};
-    public AnclaTypes anclaType;
-    public string anclaSceneName;
-    public string anclaName;
-    public Sprite anclaThumbnail;
+    public AnclaTypes tipoAncla;
+    public string IDAncla;
+    public string IDAnclaDestino;
+    public string nombreEscena;
+
+    [Header("Informacion UI")]
+    public string nombreAncla;
+    public Sprite previewAncla;
 
     private bool playerCanClick = false;
     private bool isEnteringWorld = false;
-    private Transform returnPosHelper;
+    
+    [HideInInspector] public Transform returnPosHelper;
 
-    private void Start()
+    private void Awake()
     {
         returnPosHelper = transform.Find("ReturnPosHelper");
     }
@@ -24,8 +29,7 @@ public class ZonaAncla : MonoBehaviour
     {
         if (playerCanClick && !isEnteringWorld && Input.GetMouseButtonDown(0))
         {
-            //m_MyEvent.Invoke();
-            ManagerEscenas.Instance.CargarEscena(anclaSceneName, returnPosHelper.position);
+            ManagerEscenas.Instance.CargarEscena(nombreEscena, IDAncla, IDAnclaDestino, tipoAncla.ToString());
             playerCanClick = false;
             isEnteringWorld = true;
             HUD.Instance.HideAnclaInfo();
@@ -35,7 +39,7 @@ public class ZonaAncla : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         HUD.Instance.ShowAnclaInfo();
-        HUD.Instance.SetAnclaInfo(anclaType.ToString(),anclaName, anclaThumbnail);
+        HUD.Instance.SetAnclaInfo(tipoAncla.ToString(),nombreAncla, previewAncla);
         StartCoroutine(WaitAndEnableClick(0.6f, true));
     }
 

@@ -6,9 +6,11 @@ using UnityEngine.Events;
 
 public class ManagerEscenas : MonoBehaviour
 {
-    public string nombreSiguienteEscena;
-    public Vector3 posicionRetorno;
-    public string ultimaEscena;
+    string ultimaEscena;
+    string nombreSiguienteEscena;
+    string IDAnclaEntrada;
+    string IDAnclaDestino;
+    string tipoEscena;
     public UnityEvent onLoadScene;
     float waitTime;
 
@@ -37,18 +39,21 @@ public class ManagerEscenas : MonoBehaviour
         SceneManager.sceneLoaded += TerminarCarga;
     }
 
-    public void CargarEscena(string nombreEscena, Vector3 posicion)
+    public void CargarEscena(string nombreEscena, string newIDAnclaEntrada,string newIDAnclaDestino, string newTipoEscena)
     {
         ultimaEscena = SceneManager.GetActiveScene().name;
-        posicionRetorno = posicion;
         nombreSiguienteEscena = nombreEscena;
+        tipoEscena = newTipoEscena;
+        IDAnclaEntrada = newIDAnclaEntrada;
+        IDAnclaDestino = newIDAnclaDestino;
+
         onLoadScene.Invoke();
         Invoke("Cargar", waitTime);
     }
 
     public void CargarUltimaEscena()
     {
-        CargarEscena(ultimaEscena, posicionRetorno);
+        CargarEscena(ultimaEscena,"NULO",IDAnclaEntrada, "ZONA"); //Esto asume que la ultima escena era una Zona
     }
 
     void Cargar()
@@ -59,16 +64,35 @@ public class ManagerEscenas : MonoBehaviour
     void TerminarCarga(Scene scene, LoadSceneMode mode)
     {
         GetComponent<ManagerTransicionCanvas>().FadeOutBlanco();
-        Cursor.lockState = CursorLockMode.None; //Mas adelante se podria cambiar en base a si es una "actividad" o una "zona"
-
-
-        GameObject player = GameObject.FindGameObjectWithTag("Player");
-
-        if (player != null)
+        
+        if (tipoEscena == "ZONA") //Esto no toma en cuenta el retorno de una actividad, OJO
         {
-            Debug.Log("Setting player pos");
-            player.transform.position = posicionRetorno;
+            Cursor.lockState = CursorLockMode.Locked;
+            GameObject player = GameObject.FindGameObjectWithTag("Player");
 
+            if (player != null)
+            {
+                Debug.Log("Setting player pos");
+
+                GameObject[] anclasDestino = GameObject.FindGameObjectsWithTag("Ancla");
+
+                if(anclasDestino.Length != 0)
+                {
+                    foreach (var ancla in anclasDestino)
+                    {
+                        if (ancla.GetComponent<ZonaAncla>().IDAncla == IDAnclaDestino)
+                        {
+                            player.transform.position = ancla.GetComponent<ZonaAncla>().returnPosHelper.position;
+                            break;
+                        }
+                    }
+                }
+            }
         }
+        else
+        {
+            Cursor.lockState = CursorLockMode.None;
+        }
+
     }
 }

@@ -43,6 +43,17 @@ public class HUD : MonoBehaviour
         sceneTypeText.SetText(newType);
         sceneNametext.SetText(newName);
         image.sprite = newSprite;
+
+        if(newType == "ACTIVIDAD")
+        {
+            sceneNametext.color = new Color(1,0.950f,0.350f);
+            //sceneNametext.color = new Color32(255,235,83);
+        }
+        else
+        {
+            sceneNametext.color = new Color(0.55f,0.85f,1f);
+            //sceneNametext.color = new Color32(58,200,81);
+        }
     }
 
 
