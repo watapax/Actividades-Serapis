@@ -19,6 +19,11 @@ public class ManagerActividad : MonoBehaviour
 
     }
 
+    public void QuitarRespuesta()
+    {
+        respuestasAsignadas--;
+    }
+
 
 
 

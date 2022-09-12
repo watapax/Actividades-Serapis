@@ -12,8 +12,12 @@ public class InterpolarPosicion : MonoBehaviour
     public void MoverA(Transform _target)
     {
         if (isActive) return;
+        //objetoTransform.position = _target.position;
+
         StartCoroutine(Interpolar(_target.position));
+
         isActive = true;
+        
     }
 
     IEnumerator Interpolar(Vector3 target)
