@@ -29,4 +29,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Ambientes/Escenas/Exteriores/Isla Plaza.unity
     guid: 9c2526c41350d4f458db87121d92d3fc
+  - enabled: 1
+    path: Assets/Ambientes/Escenas/Exteriores/Isla Casa del Arbol.unity
+    guid: c55d97a74e8a03d43a428c388a5f6579
   m_configObjects: {}
