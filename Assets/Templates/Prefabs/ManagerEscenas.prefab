@@ -46,11 +46,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ca15e74e0d95094db0ef8208cb963a9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ultimaEscena: 
   onLoadScene:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 4767806362216913213}
         m_TargetAssemblyTypeName: ManagerTransicionCanvas, Assembly-CSharp
         m_MethodName: FadeInBlanco
         m_Mode: 1
