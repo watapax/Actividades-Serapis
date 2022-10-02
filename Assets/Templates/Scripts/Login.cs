@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Networking;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class Login : MonoBehaviour
 {
-
+    public bool ingresoAutomatico;
     public string url;
 
     public TMP_InputField inputClave, inputUser;
@@ -53,6 +54,16 @@ public class Login : MonoBehaviour
     {
         login.SetActive(false);
         iniciando.SetActive(true);
+
+
+        if(ingresoAutomatico)
+        {
+            yield return new WaitForSeconds(3);
+            iniciando.SetActive(false);
+            ingresoCorrecto.SetActive(true);
+            yield return null;
+            StopAllCoroutines();
+        }
 
         Usuario nuevoUsuario = new Usuario(inputUser.text, inputClave.text);
 
@@ -117,5 +128,10 @@ public class Login : MonoBehaviour
 
     }
 
+
+    public void LoadAplicacion()
+    {
+        SceneManager.LoadScene("Lobby");
+    }
 
 }

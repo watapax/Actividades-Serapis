@@ -47,6 +47,9 @@ public class EmparejarConTag : MonoBehaviour
 
     IEnumerator Interpolar(Vector3 target)
     {
+        if (!onRange)
+            onTry.Invoke();
+
         Vector3 from = transform.position;
         float t = 0;
         float duracion = 0.3f;
@@ -59,8 +62,7 @@ public class EmparejarConTag : MonoBehaviour
             yield return null;
         }
 
-        if (!onRange)
-            onTry.Invoke();
+ 
     }
 
 

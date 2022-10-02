@@ -61,6 +61,11 @@ public class ManagerEscenas : MonoBehaviour
         SceneManager.LoadScene(nombreSiguienteEscena);
     }
 
+    public void CargarEscena(string _nombreEscena)
+    {
+        SceneManager.LoadScene(_nombreEscena);
+    }
+
     void TerminarCarga(Scene scene, LoadSceneMode mode)
     {
         GetComponent<ManagerTransicionCanvas>().FadeOutBlanco();

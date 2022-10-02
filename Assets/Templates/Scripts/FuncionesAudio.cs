@@ -14,4 +14,10 @@ public class FuncionesAudio : MonoBehaviour
     {
         audioSource.PlayOneShot(_clip);
     }
+
+    public void PlayClip(AudioClip _clip)
+    {
+        audioSource.clip = _clip;
+        audioSource.Play();
+    }
 }
