@@ -100,4 +100,22 @@ public class ManagerEscenas : MonoBehaviour
         }
 
     }
+
+
+    [SerializeField]
+    bool debugMode;
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.UpArrow)) Time.timeScale = 3;
+        if (Input.GetKeyDown(KeyCode.DownArrow)) Time.timeScale = 1;
+
+    }
+
+    void Debugear()
+    {
+        if (debugMode)
+            Debugear();
+    }
+
 }

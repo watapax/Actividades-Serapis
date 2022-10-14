@@ -131,7 +131,7 @@ public class Login : MonoBehaviour
 
     public void LoadAplicacion()
     {
-        SceneManager.LoadScene("Lobby");
+        SceneManager.LoadScene("inicio");
     }
 
 }

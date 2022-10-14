@@ -811,9 +811,9 @@ MonoBehaviour:
   onCompletarActividad:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 77819637}
-        m_TargetAssemblyTypeName: Transition, Assembly-CSharp
-        m_MethodName: CargarTransicion
+      - m_Target: {fileID: 77819638}
+        m_TargetAssemblyTypeName: EventoConTimer, Assembly-CSharp
+        m_MethodName: EjecutarEvento
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -867,6 +867,34 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &77819638
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 77819632}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8163ac4105e9a5c4ca000235054477ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waitTime: 3
+  evento:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 77819637}
+        m_TargetAssemblyTypeName: Transition, Assembly-CSharp
+        m_MethodName: CargarTransicion
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -1722,7 +1750,6 @@ GameObject:
   - component: {fileID: 158769943}
   - component: {fileID: 158769947}
   - component: {fileID: 158769946}
-  - component: {fileID: 158769945}
   - component: {fileID: 158769944}
   m_Layer: 0
   m_Name: clima
@@ -1759,42 +1786,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   evento:
-    m_PersistentCalls:
-      m_Calls: []
---- !u!114 &158769945
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 158769942}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 137ebabac7495fb4f95b03372abf99cc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  onMouseDown:
-    m_PersistentCalls:
-      m_Calls: []
-  onMouseUp:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 158769944}
-        m_TargetAssemblyTypeName: Transition, Assembly-CSharp
-        m_MethodName: CargarTransicion
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  onMouseEnter:
-    m_PersistentCalls:
-      m_Calls: []
-  onMouseExit:
     m_PersistentCalls:
       m_Calls: []
 --- !u!61 &158769946
@@ -3035,7 +3026,6 @@ GameObject:
   - component: {fileID: 352993130}
   - component: {fileID: 352993134}
   - component: {fileID: 352993133}
-  - component: {fileID: 352993132}
   - component: {fileID: 352993131}
   m_Layer: 0
   m_Name: fecha
@@ -3072,42 +3062,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   evento:
-    m_PersistentCalls:
-      m_Calls: []
---- !u!114 &352993132
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 352993129}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 137ebabac7495fb4f95b03372abf99cc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  onMouseDown:
-    m_PersistentCalls:
-      m_Calls: []
-  onMouseUp:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 352993131}
-        m_TargetAssemblyTypeName: Transition, Assembly-CSharp
-        m_MethodName: CargarTransicion
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  onMouseEnter:
-    m_PersistentCalls:
-      m_Calls: []
-  onMouseExit:
     m_PersistentCalls:
       m_Calls: []
 --- !u!61 &352993133
@@ -13189,7 +13143,6 @@ GameObject:
   - component: {fileID: 1551002948}
   - component: {fileID: 1551002952}
   - component: {fileID: 1551002951}
-  - component: {fileID: 1551002950}
   - component: {fileID: 1551002949}
   m_Layer: 0
   m_Name: animo
@@ -13252,42 +13205,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &1551002950
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1551002947}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 137ebabac7495fb4f95b03372abf99cc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  onMouseDown:
-    m_PersistentCalls:
-      m_Calls: []
-  onMouseUp:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1551002949}
-        m_TargetAssemblyTypeName: Transition, Assembly-CSharp
-        m_MethodName: CargarTransicion
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  onMouseEnter:
-    m_PersistentCalls:
-      m_Calls: []
-  onMouseExit:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!61 &1551002951
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -18227,7 +18144,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Lobby
+          m_StringArgument: IB010 Conejo Piren
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &2140577606

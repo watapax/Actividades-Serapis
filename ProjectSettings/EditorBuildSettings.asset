@@ -65,4 +65,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Actividades/Rutinas/sala de clases.unity
     guid: a0bb2eb97edd80d40b34a60c380f3865
+  - enabled: 1
+    path: Assets/Actividades/Rutinas/inicio.unity
+    guid: a49358908843c50458d148c0f3f06433
+  - enabled: 1
+    path: Assets/Actividades/IC004 - Carrusel/escenas/ic004.unity
+    guid: 55f1a7a5be9542342ac937e49ebbd16f
   m_configObjects: {}
