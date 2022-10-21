@@ -135,6 +135,7 @@ GameObject:
   - component: {fileID: 43822137}
   - component: {fileID: 43822136}
   - component: {fileID: 43822135}
+  - component: {fileID: 43822138}
   m_Layer: 5
   m_Name: SaltarTutorial
   m_TagString: Untagged
@@ -207,8 +208,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 5571647219185299394}
-        m_TargetAssemblyTypeName: ManagerEscenas, Assembly-CSharp
+      - m_Target: {fileID: 43822138}
+        m_TargetAssemblyTypeName: CambiaEscenaSimple, Assembly-CSharp
         m_MethodName: CargarEscena
         m_Mode: 5
         m_Arguments:
@@ -269,6 +270,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 43822133}
   m_CullTransparentMesh: 1
+--- !u!114 &43822138
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 43822133}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49543d6a893253a4ea5ac38f25d4a057, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &316534117
 GameObject:
   m_ObjectHideFlags: 0
@@ -358,7 +371,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 316534117}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.28007314, y: 1.2952995, z: -3.0198753}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -488,7 +501,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 431112152}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -816,7 +829,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1420403868}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1117,6 +1130,7 @@ GameObject:
   - component: {fileID: 2121469455}
   - component: {fileID: 2121469454}
   - component: {fileID: 2121469453}
+  - component: {fileID: 2121469456}
   m_Layer: 0
   m_Name: tutorial
   m_TagString: Untagged
@@ -1140,8 +1154,8 @@ MonoBehaviour:
   onVideoEnd:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 5571647219185299394}
-        m_TargetAssemblyTypeName: ManagerEscenas, Assembly-CSharp
+      - m_Target: {fileID: 2121469456}
+        m_TargetAssemblyTypeName: CambiaEscenaSimple, Assembly-CSharp
         m_MethodName: CargarEscena
         m_Mode: 5
         m_Arguments:
@@ -1194,7 +1208,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2121469452}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.28007314, y: 1.2952995, z: -3.0198753}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1202,6 +1216,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2121469456
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2121469452}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49543d6a893253a4ea5ac38f25d4a057, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5571647218737820685
 GameObject:
   m_ObjectHideFlags: 0
@@ -1294,33 +1320,6 @@ MonoBehaviour:
   cuadroBlanco: {fileID: 5571647218737820915}
   duracionFade: 1.5
   fadeoutOnAwake: 1
---- !u!114 &5571647219185299394
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5571647219185299420}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9ca15e74e0d95094db0ef8208cb963a9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  onLoadScene:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 5571647219185299392}
-        m_TargetAssemblyTypeName: ManagerTransicionCanvas, Assembly-CSharp
-        m_MethodName: FadeInBlanco
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!1 &5571647219185299420
 GameObject:
   m_ObjectHideFlags: 0
@@ -1330,7 +1329,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5571647219185299421}
-  - component: {fileID: 5571647219185299394}
   - component: {fileID: 5571647219185299392}
   m_Layer: 0
   m_Name: MANAGERS

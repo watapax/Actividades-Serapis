@@ -9,8 +9,8 @@ public class RopeBridge : MonoBehaviour
 
     private LineRenderer lineRenderer;
     private List<RopeSegment> ropeSegments = new List<RopeSegment>();
-    private float ropeSegLen = 0.25f;
-    int segmentLength = 35;
+    public float ropeSegLen = 0.25f;
+    public int segmentLength = 35;
     public float anchoCuerda = 0.1f;
     public float gravedad;
     Vector2 forceGravity;

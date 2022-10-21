@@ -14,6 +14,8 @@ TagManager:
   - dia
   - numero
   - mes
+  - 4
+  - 5
   layers:
   - Default
   - TransparentFX
