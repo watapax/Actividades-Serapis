@@ -9351,6 +9351,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6114149556244325602, guid: fcb4726d80944f847809bb89b983e7ac,
         type: 3}
+      propertyPath: AnclaOutline
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6114149556244325602, guid: fcb4726d80944f847809bb89b983e7ac,
+        type: 3}
       propertyPath: nombreEscena
       value: Isla Plaza
       objectReference: {fileID: 0}
@@ -12908,9 +12913,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6114149556244325602, guid: fcb4726d80944f847809bb89b983e7ac,
         type: 3}
+      propertyPath: AnclaObject
+      value: 
+      objectReference: {fileID: 1660987363}
+    - target: {fileID: 6114149556244325602, guid: fcb4726d80944f847809bb89b983e7ac,
+        type: 3}
       propertyPath: nombreAncla
       value: TIRO AL BLANCO
       objectReference: {fileID: 0}
+    - target: {fileID: 6114149556244325602, guid: fcb4726d80944f847809bb89b983e7ac,
+        type: 3}
+      propertyPath: AnclaOutline
+      value: 
+      objectReference: {fileID: 1660987363}
     - target: {fileID: 6114149556244325602, guid: fcb4726d80944f847809bb89b983e7ac,
         type: 3}
       propertyPath: nombreEscena
@@ -12933,6 +12948,16 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 3be6c5883a48d934883182e627a3c952,
         type: 3}
+    - target: {fileID: 6114149556244325602, guid: fcb4726d80944f847809bb89b983e7ac,
+        type: 3}
+      propertyPath: AnclaMeshOutline
+      value: 
+      objectReference: {fileID: 1660987363}
+    - target: {fileID: 6114149556244325602, guid: fcb4726d80944f847809bb89b983e7ac,
+        type: 3}
+      propertyPath: distanciaActivacion
+      value: 1.69
+      objectReference: {fileID: 0}
     - target: {fileID: 6114149556244325602, guid: fcb4726d80944f847809bb89b983e7ac,
         type: 3}
       propertyPath: m_MyEvent.m_PersistentCalls.m_Calls.Array.size
@@ -12981,7 +13006,7 @@ PrefabInstance:
     - target: {fileID: 6114149556244325606, guid: fcb4726d80944f847809bb89b983e7ac,
         type: 3}
       propertyPath: m_Radius
-      value: 1.25
+      value: 1.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fcb4726d80944f847809bb89b983e7ac, type: 3}
@@ -13819,6 +13844,12 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 899584706}
   m_Mesh: {fileID: 3468895112733140119, guid: 495774ffd7857c64ea7ab0ac8baee549, type: 3}
+--- !u!1 &921361399 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2521127156889779445, guid: dbb7c680ab9ceff47a206e1eb7e3dd29,
+    type: 3}
+  m_PrefabInstance: {fileID: 1696918527}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &922640627 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3637134996410565414, guid: 9c6178fe943216540b276b975dafae16,
@@ -15353,6 +15384,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6114149556244325602, guid: fcb4726d80944f847809bb89b983e7ac,
         type: 3}
+      propertyPath: AnclaOutline
+      value: 
+      objectReference: {fileID: 1696918529}
+    - target: {fileID: 6114149556244325602, guid: fcb4726d80944f847809bb89b983e7ac,
+        type: 3}
       propertyPath: nombreEscena
       value: Lobby
       objectReference: {fileID: 0}
@@ -15372,6 +15408,16 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 3be6c5883a48d934883182e627a3c952,
         type: 3}
+    - target: {fileID: 6114149556244325602, guid: fcb4726d80944f847809bb89b983e7ac,
+        type: 3}
+      propertyPath: AnclaMeshOutline
+      value: 
+      objectReference: {fileID: 1696918529}
+    - target: {fileID: 6114149556244325602, guid: fcb4726d80944f847809bb89b983e7ac,
+        type: 3}
+      propertyPath: distanciaActivacion
+      value: 1.56
+      objectReference: {fileID: 0}
     - target: {fileID: 6114149556244325602, guid: fcb4726d80944f847809bb89b983e7ac,
         type: 3}
       propertyPath: m_MyEvent.m_PersistentCalls.m_Calls.Array.size
@@ -15416,6 +15462,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Ancla (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6114149556244325606, guid: fcb4726d80944f847809bb89b983e7ac,
+        type: 3}
+      propertyPath: m_Radius
+      value: 1.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fcb4726d80944f847809bb89b983e7ac, type: 3}
@@ -22439,6 +22490,24 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1555544235
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1555544232}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  outlineMode: 1
+  outlineColor: {r: 1, g: 1, b: 1, a: 1}
+  outlineWidth: 10
+  precomputeOutline: 0
+  bakeKeys: []
+  bakeValues: []
 --- !u!4 &1566466893 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4241147409564433418, guid: 4b4ea87231b37c148abee861d3c0001e,
@@ -24363,6 +24432,30 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4b4ea87231b37c148abee861d3c0001e, type: 3}
+--- !u!1 &1660987362 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 92f5d5328586e2041bee808e8d2adc75,
+    type: 3}
+  m_PrefabInstance: {fileID: 1010796619}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1660987363
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1660987362}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  outlineMode: 1
+  outlineColor: {r: 1, g: 1, b: 1, a: 1}
+  outlineWidth: 10
+  precomputeOutline: 0
+  bakeKeys: []
+  bakeValues: []
 --- !u!1001 &1670691311
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -25047,6 +25140,24 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1696918527}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1696918529
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 921361399}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  outlineMode: 1
+  outlineColor: {r: 1, g: 1, b: 1, a: 1}
+  outlineWidth: 10
+  precomputeOutline: 0
+  bakeKeys: []
+  bakeValues: []
 --- !u!1 &1697167130 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5443065989657444798, guid: e4b7ee855e6fe0640ae15f3068cf68d7,
@@ -39973,6 +40084,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6114149556244325602, guid: fcb4726d80944f847809bb89b983e7ac,
         type: 3}
+      propertyPath: AnclaOutline
+      value: 
+      objectReference: {fileID: 1555544235}
+    - target: {fileID: 6114149556244325602, guid: fcb4726d80944f847809bb89b983e7ac,
+        type: 3}
       propertyPath: nombreEscena
       value: ic004
       objectReference: {fileID: 0}
@@ -39998,6 +40114,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 3be6c5883a48d934883182e627a3c952,
         type: 3}
+    - target: {fileID: 6114149556244325602, guid: fcb4726d80944f847809bb89b983e7ac,
+        type: 3}
+      propertyPath: AnclaMeshOutline
+      value: 
+      objectReference: {fileID: 1555544235}
     - target: {fileID: 6114149556244325602, guid: fcb4726d80944f847809bb89b983e7ac,
         type: 3}
       propertyPath: m_MyEvent.m_PersistentCalls.m_Calls.Array.size

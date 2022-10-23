@@ -10,6 +10,7 @@ public class HUD : MonoBehaviour
     public TextMeshProUGUI sceneTypeText;
     public TextMeshProUGUI sceneNametext;
     public Image image;
+    public bool isShowing;
 
     //Singleton stuff
     public static HUD Instance { get; private set; }
@@ -29,13 +30,17 @@ public class HUD : MonoBehaviour
     public void ShowAnclaInfo()
     {
         //InfoGameObject.SetActive(true);
-        InfoGameObject.GetComponent<Animator>().SetTrigger("Show");
+        InfoGameObject.GetComponent<Animator>().SetBool("IsShowing", true);
+        //InfoGameObject.GetComponent<Animator>().Play("Show");
+        isShowing = true;
     }
 
     public void HideAnclaInfo()
     {
         //InfoGameObject.SetActive(false);
-        InfoGameObject.GetComponent<Animator>().SetTrigger("Hide");
+        InfoGameObject.GetComponent<Animator>().SetBool("IsShowing", false);
+        //InfoGameObject.GetComponent<Animator>().Play("Hide");
+        isShowing = false;
     }
 
     public void SetAnclaInfo(string newType,string newName, Sprite newSprite)
