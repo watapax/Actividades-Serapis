@@ -29,6 +29,11 @@ public class ZonaAncla:MonoBehaviour
     private void Awake()
     {
         returnPosHelper = transform.Find("ReturnPosHelper");
+        
+    }
+
+    private void Start()
+    {
         if (AnclaMeshOutline != null)
         {
             AnclaMeshOutline.enabled = false;
@@ -45,6 +50,7 @@ public class ZonaAncla:MonoBehaviour
             HUD.Instance.HideAnclaInfo();
         }
 
+        
         /* //This part of the script allows for a different way of detecting the player
         //If player is in Ancla zone, calculate distance
         if (player != null)
@@ -99,8 +105,12 @@ public class ZonaAncla:MonoBehaviour
     private IEnumerator WaitAndEnableClick(float waitTime, bool newValue)
     {
         yield return new WaitForSeconds(waitTime);
-        playerCanClick = newValue;
 
+        if (player != null)
+        {
+            playerCanClick = newValue;
+        }
+        
     }
 
     /*
