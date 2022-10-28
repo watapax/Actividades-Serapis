@@ -78,15 +78,15 @@ EditorBuildSettings:
     path: Assets/Actividades/IP005 - silabas animales/silabas animales.unity
     guid: 3b63dae99bc906248b3a6ae07e28495e
   - enabled: 1
-    path: Assets/Actividades/rincon del arte/rincon del arte.unity
-    guid: f4e75a1aeefc758418db93ebc367ac6e
-  - enabled: 1
-    path: Assets/Actividades/atletismo/atletismo.unity
-    guid: d0c0820e5df69134ba8bc92a4653c6fb
-  - enabled: 1
     path: Assets/Actividades/Vak/vak.unity
     guid: 79eedb6801bd3f3488e11f0b1e977965
   - enabled: 1
-    path: Assets/Actividades/vocales/vocales.unity
-    guid: 5e7a47f2fff254d48945765a7f8fdd7c
+    path: Assets/Actividades/ICA006 - normas sociales/ica006 normas sociales.unity
+    guid: be98fe3b2cb6d5e4f859c8520e989c24
+  - enabled: 1
+    path: Assets/Actividades/IP003 - Separacion Silabas/separacionSilabas.unity
+    guid: 2fbd02c37bbe94446a0f20132096b9ae
+  - enabled: 1
+    path: Assets/Actividades/IP008 - Juanito el Bandolero/juanito el bandolero.unity
+    guid: 60c4d2a05310560438a7cb20b76c2947
   m_configObjects: {}
