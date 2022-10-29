@@ -9,9 +9,6 @@ EditorBuildSettings:
     path: Assets/EscenaDummy.unity
     guid: 7b78e3a3be82dda47a2c40b9def97fdb
   - enabled: 1
-    path: Assets/Actividades/IC006 - Emojis/escena/Actividad Mago.unity
-    guid: 5e098a78ea721b44ebc47abc2c69a97c
-  - enabled: 1
     path: Assets/Actividades/IB010 - Conejo Piren/IB010 Conejo Piren.unity
     guid: f210f10cb86abd94f9c22ad8720d9d91
   - enabled: 1
@@ -21,11 +18,17 @@ EditorBuildSettings:
     path: Assets/Actividades/IC001 - Atrapa Pelotas/escenas/atrapa pelotas.unity
     guid: d1701275b785c9e47a66d0f512886e79
   - enabled: 1
+    path: Assets/Actividades/IC003 - Tiro al Blanco/IC003_tiroAlblanco.unity
+    guid: 32ec629ccfdcb5a4581594fbd40aad31
+  - enabled: 1
+    path: Assets/Actividades/IC006 - Emojis/escena/Actividad Mago.unity
+    guid: 5e098a78ea721b44ebc47abc2c69a97c
+  - enabled: 1
     path: Assets/Actividades/IC007 - Rincon de la Lectura/ic007.unity
     guid: 68bd610368348894f84267179a7e7389
   - enabled: 1
-    path: Assets/Actividades/IC003 - Tiro al Blanco/IC003_tiroAlblanco.unity
-    guid: 32ec629ccfdcb5a4581594fbd40aad31
+    path: Assets/Actividades/IC012 - Fotografias/fotografias.unity
+    guid: 1dcd0a4e85517b3428c92889d13ed14f
   - enabled: 1
     path: Assets/Ambientes/Escenas/Exteriores/Isla Plaza.unity
     guid: 9c2526c41350d4f458db87121d92d3fc
@@ -54,8 +57,8 @@ EditorBuildSettings:
     path: Assets/Ambientes/Escenas/Exteriores/Isla Casa.unity
     guid: 670bcdc494e01344e9c12bb07d2d99a1
   - enabled: 1
-    path: Assets/Actividades/IC012 - Fotografias/fotografias.unity
-    guid: 1dcd0a4e85517b3428c92889d13ed14f
+    path: Assets/Actividades/ICA006 - normas sociales/ica006 normas sociales.unity
+    guid: be98fe3b2cb6d5e4f859c8520e989c24
   - enabled: 1
     path: Assets/Actividades/IP013 - pueblos originarios/pueblos originarios.unity
     guid: 2004a858567ce27458018e853f7c4594
@@ -69,6 +72,9 @@ EditorBuildSettings:
     path: Assets/Actividades/Rutinas/rutinas.unity
     guid: a49358908843c50458d148c0f3f06433
   - enabled: 1
+    path: Assets/Actividades/IP003 - Separacion Silabas/separacionSilabas.unity
+    guid: 2fbd02c37bbe94446a0f20132096b9ae
+  - enabled: 1
     path: Assets/Actividades/IC004 - Carrusel/escenas/ic004.unity
     guid: 55f1a7a5be9542342ac937e49ebbd16f
   - enabled: 1
@@ -78,15 +84,25 @@ EditorBuildSettings:
     path: Assets/Actividades/IP005 - silabas animales/silabas animales.unity
     guid: 3b63dae99bc906248b3a6ae07e28495e
   - enabled: 1
+    path: Assets/Actividades/IP008 - Juanito el Bandolero/juanito el bandolero.unity
+    guid: 60c4d2a05310560438a7cb20b76c2947
+  - enabled: 1
     path: Assets/Actividades/Vak/vak.unity
     guid: 79eedb6801bd3f3488e11f0b1e977965
   - enabled: 1
-    path: Assets/Actividades/ICA006 - normas sociales/ica006 normas sociales.unity
-    guid: be98fe3b2cb6d5e4f859c8520e989c24
+    path: Assets/Actividades/IB011 - Contando manzanas/ib011 contando manzanas.unity
+    guid: db2e9e2e34e4f1043bd45b77d9f7459a
   - enabled: 1
-    path: Assets/Actividades/IP003 - Separacion Silabas/separacionSilabas.unity
-    guid: 2fbd02c37bbe94446a0f20132096b9ae
+    path: Assets/Actividades/IB012 - Figuras Geometricas/ib012 figuras geometricas.unity
+    guid: 35c5a8f43fd6a4548bc705216f090863
   - enabled: 1
-    path: Assets/Actividades/IP008 - Juanito el Bandolero/juanito el bandolero.unity
-    guid: 60c4d2a05310560438a7cb20b76c2947
+    path: Assets/Actividades/IB013 - Juego Creando Patrones 1/Escenas/ib013 - Creando
+      patrones 1.unity
+    guid: 6c506f5455220b24496fe951486b50dc
+  - enabled: 1
+    path: Assets/Actividades/IB014 - Creando Patrones 2/ib014 creando patrones 2.unity
+    guid: 17ed7995fb644cc4cac14bfd8eb78c11
+  - enabled: 1
+    path: Assets/Actividades/IB018 - Causa y Efecto/ib018 causayefecto.unity
+    guid: d98f4612d2348ce4588fa914f5ce55c5
   m_configObjects: {}
