@@ -89,4 +89,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Actividades/IP008 - Juanito el Bandolero/juanito el bandolero.unity
     guid: 60c4d2a05310560438a7cb20b76c2947
+  - enabled: 1
+    path: Assets/Actividades/sonidos finales burbuja/sonidos finales burbuja.unity
+    guid: 0e77b1f3858e5234b80d84d5ea73417f
   m_configObjects: {}
