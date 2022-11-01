@@ -1,0 +1,503 @@
+fileFormatVersion: 2
+guid: 010f7d448befd26468fd616fa4187983
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: b2a9591990af98743ba3ff7cf1000886, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 1
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    isReadable: 0
+    streamingMipmaps: 1
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMasterTextureLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  spriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 0, y: 0}
+  mosaicSpriteImportData: []
+  rigSpriteImportData:
+  - name: Ojo
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1932
+      y: 678
+      width: 98
+      height: 47
+    spriteID: 81544bb25ee270e45bff9a5db1dd58ab
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1436, y: 520}
+  - name: bus
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1932
+      y: 616
+      width: 88
+      height: 54
+    spriteID: b2f93993bd73ab045bf802b4d9dcdf08
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 941, y: 465}
+  - name: avion
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1932
+      y: 92
+      width: 106
+      height: 75
+    spriteID: 0d55804cb42e4304084cb061740b3ab9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1110, y: -49}
+  - name: ardilla
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1932
+      y: 4
+      width: 102
+      height: 80
+    spriteID: f0636c93ba5ad444082d0a01c4f83ce0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1440, y: -293}
+  - name: arcoiris
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1932
+      y: 366
+      width: 97
+      height: 61
+    spriteID: 8e6b0426fd3df7049b343d864acebddf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 816, y: 218}
+  - name: arbol
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1932
+      y: 525
+      width: 58
+      height: 83
+    spriteID: 1b4e7ef42c0a06c4f96142e93765c419
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 651, y: 392}
+  - name: anillo
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1932
+      y: 733
+      width: 50
+      height: 78
+    spriteID: 8bfde6e3c6a58e046a11a0d3016e631f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 925, y: 435}
+  - name: angel
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1092
+      width: 116
+      height: 102
+    spriteID: 9be410803bb98364fba1c9cc2a244986
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -642, y: 804}
+  - name: abrigo
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1932
+      y: 435
+      width: 65
+      height: 82
+    spriteID: 32f3aa0d5f3c0cc4b823a39af25a1dbc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 789, y: 143}
+  - name: abeja
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1932
+      y: 175
+      width: 89
+      height: 82
+    spriteID: 76f87adce8d331f4aa5b84001b8241fc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 673, y: -123}
+  - name: uva
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1932
+      y: 265
+      width: 70
+      height: 93
+    spriteID: 5d716a8cb1b0007409e7f5170f2f398e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1095, y: -23}
+  - name: fondo
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 1920
+      height: 1080
+    spriteID: 3e315d87b06274841ac7cde0e0c32822
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 4}
+  characterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+    boneReadOnly: 0
+  sharedRigSpriteImportData: []
+  sharedRigCharacterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+    boneReadOnly: 0
+  platformSettings: []
+  mosaicLayers: 1
+  characterMode: 1
+  documentPivot: {x: 0, y: 0}
+  documentAlignment: 7
+  importHiddenLayers: 0
+  layerMappingOption: 2
+  generatePhysicsShape: 0
+  paperDollMode: 0
+  keepDupilcateSpriteName: 1
+  skeletonAssetReferenceID: 
+  spriteCategoryList:
+    categories: []
+  spritePackingTag: 
+  resliceFromLayer: 0
+  mosaicPSDLayers: []
+  rigPSDLayers:
+  - name: Ojo
+    spriteName: Ojo
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 81544bb25ee270e45bff9a5db1dd58ab
+    layerID: 18
+    mosaicPosition: {x: 1932, y: 678}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: bus
+    spriteName: bus
+    isGroup: 0
+    parentIndex: -1
+    spriteID: b2f93993bd73ab045bf802b4d9dcdf08
+    layerID: 16
+    mosaicPosition: {x: 1932, y: 616}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: avion
+    spriteName: avion
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 0d55804cb42e4304084cb061740b3ab9
+    layerID: 15
+    mosaicPosition: {x: 1932, y: 92}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: ardilla
+    spriteName: ardilla
+    isGroup: 0
+    parentIndex: -1
+    spriteID: f0636c93ba5ad444082d0a01c4f83ce0
+    layerID: 14
+    mosaicPosition: {x: 1932, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: arcoiris
+    spriteName: arcoiris
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 8e6b0426fd3df7049b343d864acebddf
+    layerID: 13
+    mosaicPosition: {x: 1932, y: 366}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: arbol
+    spriteName: arbol
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 1b4e7ef42c0a06c4f96142e93765c419
+    layerID: 12
+    mosaicPosition: {x: 1932, y: 525}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: anillo
+    spriteName: anillo
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 8bfde6e3c6a58e046a11a0d3016e631f
+    layerID: 10
+    mosaicPosition: {x: 1932, y: 733}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: angel
+    spriteName: angel
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 9be410803bb98364fba1c9cc2a244986
+    layerID: 9
+    mosaicPosition: {x: 4, y: 1092}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: abrigo
+    spriteName: abrigo
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 32f3aa0d5f3c0cc4b823a39af25a1dbc
+    layerID: 8
+    mosaicPosition: {x: 1932, y: 435}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: abeja
+    spriteName: abeja
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 76f87adce8d331f4aa5b84001b8241fc
+    layerID: 7
+    mosaicPosition: {x: 1932, y: 175}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: uva
+    spriteName: uva
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 5d716a8cb1b0007409e7f5170f2f398e
+    layerID: 6
+    mosaicPosition: {x: 1932, y: 265}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: fondo
+    spriteName: fondo
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 3e315d87b06274841ac7cde0e0c32822
+    layerID: 2
+    mosaicPosition: {x: 4, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  sharedRigPSDLayers: []
+  pSDLayerImportSetting: []
+  generateGOHierarchy: 0
+  textureAssetName: 
+  prefabAssetName: 
+  spriteLibAssetName: 
+  skeletonAssetName: 
+  secondarySpriteTextures: []

@@ -40,6 +40,10 @@ public class Emparejar : MonoBehaviour
             if(moveToMatchPosition) StartCoroutine(Interpolar(pareja.position));
             emparejado = true;
             onMatch.Invoke();
+            if(disableOnMatch)
+            {
+                gameObject.GetComponent<Collider2D>().enabled = false;
+            }
         }
         else
         {
@@ -80,5 +84,5 @@ public class Emparejar : MonoBehaviour
     {
         onRange = false;
     }
-
+    public bool disableOnMatch;
 }

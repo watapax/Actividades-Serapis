@@ -30,7 +30,12 @@ public class EmparejarConTag : MonoBehaviour
         {
             if(moveToMatchPosition) StartCoroutine(Interpolar(pareja.position));
             emparejado = true;
+            if (disableOnMatch)
+            {
+                Destroy(gameObject.GetComponent<Collider2D>());
+            }
             onMatch.Invoke();
+
             if (pareja.GetComponent<EventOnOther>())
             {
                 pareja.GetComponent<EventOnOther>().evento.Invoke();
@@ -79,5 +84,7 @@ public class EmparejarConTag : MonoBehaviour
     {
         onRange = false;
     }
+
+    public bool disableOnMatch;
 
 }

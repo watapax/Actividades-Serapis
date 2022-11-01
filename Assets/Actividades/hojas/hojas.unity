@@ -1,0 +1,3889 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 9
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
+  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 0
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+  m_IndirectSpecularColor: {r: 0.12731749, g: 0.13414757, b: 0.1210787, a: 1}
+  m_UseRadianceAmbientProbe: 0
+--- !u!157 &3
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 12
+  m_GIWorkflowMode: 1
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 1
+    m_EnableRealtimeLightmaps: 0
+  m_LightmapEditorSettings:
+    serializedVersion: 12
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_AtlasSize: 1024
+    m_AO: 0
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 1
+    m_CompAOExponentDirect: 0
+    m_ExtractAmbientOcclusion: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 1
+    m_FinalGather: 0
+    m_FinalGatherFiltering: 1
+    m_FinalGatherRayCount: 256
+    m_ReflectionCompression: 2
+    m_MixedBakeMode: 2
+    m_BakeBackend: 1
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 512
+    m_PVRBounces: 2
+    m_PVREnvironmentSampleCount: 256
+    m_PVREnvironmentReferencePointCount: 2048
+    m_PVRFilteringMode: 1
+    m_PVRDenoiserTypeDirect: 1
+    m_PVRDenoiserTypeIndirect: 1
+    m_PVRDenoiserTypeAO: 1
+    m_PVRFilterTypeDirect: 0
+    m_PVRFilterTypeIndirect: 0
+    m_PVRFilterTypeAO: 0
+    m_PVREnvironmentMIS: 1
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 5
+    m_PVRFilteringGaussRadiusAO: 2
+    m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+    m_PVRFilteringAtrousPositionSigmaIndirect: 2
+    m_PVRFilteringAtrousPositionSigmaAO: 1
+    m_ExportTrainingData: 0
+    m_TrainingDataDestination: TrainingData
+    m_LightProbeSampleCountMultiplier: 4
+  m_LightingDataAsset: {fileID: 0}
+  m_LightingSettings: {fileID: 0}
+--- !u!196 &4
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 2
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666667
+    manualTileSize: 0
+    tileSize: 256
+    accuratePlacement: 0
+    maxJobWorkers: 0
+    preserveTilesOutsideBounds: 0
+    debug:
+      m_Flags: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!114 &3432648
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 924209467}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae541563c51116647b4b73ccc4b11c98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pareja: {fileID: 1643629871}
+  onMatch:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 3505560}
+        m_TargetAssemblyTypeName: ManagerActividad, Assembly-CSharp
+        m_MethodName: AgregarRespuestaCorrecta
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  onTry:
+    m_PersistentCalls:
+      m_Calls: []
+  onUnmatch:
+    m_PersistentCalls:
+      m_Calls: []
+  moveToMatchPosition: 0
+  disableOnMatch: 1
+--- !u!114 &3432649
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 924209467}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a53258acc8eca244fbba19d23474ded1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onMouseDown:
+    m_PersistentCalls:
+      m_Calls: []
+  onMouseUp:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 3432648}
+        m_TargetAssemblyTypeName: Emparejar, Assembly-CSharp
+        m_MethodName: BuscarPareja
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  destacador: {fileID: 0}
+--- !u!60 &3432650
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 924209467}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.7, y: 0.39}
+    newSize: {x: 0.7, y: 0.39}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.35, y: 0.195}
+      - {x: 0.099999994, y: 0.195}
+      - {x: 0.02, y: 0.185}
+      - {x: -0.17999999, y: 0.095}
+      - {x: -0.35, y: -0.085}
+      - {x: -0.35, y: -0.195}
+      - {x: -0.099999994, y: -0.195}
+      - {x: 0.03, y: -0.16499999}
+      - {x: 0.12, y: -0.13499999}
+      - {x: 0.35, y: 0.085}
+--- !u!114 &3505559
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 924209462}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8163ac4105e9a5c4ca000235054477ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waitTime: 2
+  evento:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1840454840}
+        m_TargetAssemblyTypeName: UnityEngine.Video.VideoPlayer, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &3505560
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 924209462}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28423c77d81a34f41b54802d95cc2631, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onCompletarActividad:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 3505559}
+        m_TargetAssemblyTypeName: EventoConTimer, Assembly-CSharp
+        m_MethodName: EjecutarEvento
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  cantidadDeRespuestas: 24
+--- !u!114 &6650775
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 924209478}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae541563c51116647b4b73ccc4b11c98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pareja: {fileID: 802015648}
+  onMatch:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 3505560}
+        m_TargetAssemblyTypeName: ManagerActividad, Assembly-CSharp
+        m_MethodName: AgregarRespuestaCorrecta
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  onTry:
+    m_PersistentCalls:
+      m_Calls: []
+  onUnmatch:
+    m_PersistentCalls:
+      m_Calls: []
+  moveToMatchPosition: 0
+  disableOnMatch: 1
+--- !u!114 &6650776
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 924209478}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a53258acc8eca244fbba19d23474ded1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onMouseDown:
+    m_PersistentCalls:
+      m_Calls: []
+  onMouseUp:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 6650775}
+        m_TargetAssemblyTypeName: Emparejar, Assembly-CSharp
+        m_MethodName: BuscarPareja
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  destacador: {fileID: 0}
+--- !u!60 &6650777
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 924209478}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.42, y: 0.53}
+    newSize: {x: 0.42, y: 0.53}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.07, y: 0.265}
+      - {x: -0.12, y: 0.265}
+      - {x: -0.21, y: 0.185}
+      - {x: -0.21, y: -0.055}
+      - {x: -0.17, y: -0.145}
+      - {x: -0.049999997, y: -0.265}
+      - {x: 0.049999997, y: -0.265}
+      - {x: 0.21, y: -0.065}
+      - {x: 0.21, y: 0.205}
+--- !u!114 &114944497
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 924209490}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae541563c51116647b4b73ccc4b11c98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pareja: {fileID: 710392491}
+  onMatch:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 3505560}
+        m_TargetAssemblyTypeName: ManagerActividad, Assembly-CSharp
+        m_MethodName: AgregarRespuestaCorrecta
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  onTry:
+    m_PersistentCalls:
+      m_Calls: []
+  onUnmatch:
+    m_PersistentCalls:
+      m_Calls: []
+  moveToMatchPosition: 0
+  disableOnMatch: 1
+--- !u!114 &114944498
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 924209490}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a53258acc8eca244fbba19d23474ded1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onMouseDown:
+    m_PersistentCalls:
+      m_Calls: []
+  onMouseUp:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 114944497}
+        m_TargetAssemblyTypeName: Emparejar, Assembly-CSharp
+        m_MethodName: BuscarPareja
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  destacador: {fileID: 0}
+--- !u!60 &114944499
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 924209490}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.9, y: 0.65}
+    newSize: {x: 0.9, y: 0.65}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.45, y: -0.125}
+      - {x: 0.22, y: 0.065}
+      - {x: 0.34, y: 0.145}
+      - {x: 0.35999998, y: 0.195}
+      - {x: 0.04, y: 0.24499999}
+      - {x: -0.07, y: 0.325}
+      - {x: -0.14, y: 0.325}
+      - {x: -0.16, y: 0.315}
+      - {x: -0.44, y: 0.185}
+      - {x: -0.45, y: 0.175}
+      - {x: -0.45, y: 0.13499999}
+      - {x: -0.39999998, y: 0.114999995}
+      - {x: -0.32999998, y: 0.095}
+      - {x: -0.35999998, y: 0.024999999}
+      - {x: -0.35, y: -0.005}
+      - {x: -0.28, y: -0.024999999}
+      - {x: -0.34, y: -0.185}
+      - {x: -0.25, y: -0.195}
+      - {x: 0.06, y: -0.325}
+      - {x: 0.17, y: -0.325}
+      - {x: 0.17999999, y: -0.155}
+      - {x: 0.26, y: -0.16499999}
+      - {x: 0.45, y: -0.175}
+--- !u!114 &119409321
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 924209471}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae541563c51116647b4b73ccc4b11c98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pareja: {fileID: 1643629871}
+  onMatch:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 3505560}
+        m_TargetAssemblyTypeName: ManagerActividad, Assembly-CSharp
+        m_MethodName: AgregarRespuestaCorrecta
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  onTry:
+    m_PersistentCalls:
+      m_Calls: []
+  onUnmatch:
+    m_PersistentCalls:
+      m_Calls: []
+  moveToMatchPosition: 0
+  disableOnMatch: 1
+--- !u!114 &119409322
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 924209471}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a53258acc8eca244fbba19d23474ded1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onMouseDown:
+    m_PersistentCalls:
+      m_Calls: []
+  onMouseUp:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 119409321}
+        m_TargetAssemblyTypeName: Emparejar, Assembly-CSharp
+        m_MethodName: BuscarPareja
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  destacador: {fileID: 0}
+--- !u!60 &119409323
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 924209471}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.87, y: 0.33}
+    newSize: {x: 0.87, y: 0.33}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.295, y: 0.114999995}
+      - {x: 0.205, y: 0.16499999}
+      - {x: -0.114999995, y: 0.16499999}
+      - {x: -0.185, y: 0.155}
+      - {x: -0.375, y: 0.015}
+      - {x: -0.435, y: -0.065}
+      - {x: -0.435, y: -0.114999995}
+      - {x: -0.285, y: -0.16499999}
+      - {x: 0.044999998, y: -0.16499999}
+      - {x: 0.13499999, y: -0.145}
+      - {x: 0.225, y: -0.085}
+      - {x: 0.435, y: 0.044999998}
+      - {x: 0.435, y: 0.125}
+--- !u!114 &499752908
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 924209473}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae541563c51116647b4b73ccc4b11c98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pareja: {fileID: 802015648}
+  onMatch:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 3505560}
+        m_TargetAssemblyTypeName: ManagerActividad, Assembly-CSharp
+        m_MethodName: AgregarRespuestaCorrecta
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  onTry:
+    m_PersistentCalls:
+      m_Calls: []
+  onUnmatch:
+    m_PersistentCalls:
+      m_Calls: []
+  moveToMatchPosition: 0
+  disableOnMatch: 1
+--- !u!114 &499752909
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 924209473}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a53258acc8eca244fbba19d23474ded1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onMouseDown:
+    m_PersistentCalls:
+      m_Calls: []
+  onMouseUp:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 499752908}
+        m_TargetAssemblyTypeName: Emparejar, Assembly-CSharp
+        m_MethodName: BuscarPareja
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  destacador: {fileID: 0}
+--- !u!60 &499752910
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 924209473}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.81, y: 0.43}
+    newSize: {x: 0.81, y: 0.43}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.405, y: -0.065}
+      - {x: 0.225, y: 0.105}
+      - {x: 0.055, y: 0.21499999}
+      - {x: -0.005, y: 0.21499999}
+      - {x: -0.055, y: 0.195}
+      - {x: -0.085, y: 0.21499999}
+      - {x: -0.285, y: 0.21499999}
+      - {x: -0.405, y: 0.105}
+      - {x: -0.405, y: 0.044999998}
+      - {x: -0.345, y: -0.105}
+      - {x: -0.255, y: -0.175}
+      - {x: -0.145, y: -0.21499999}
+      - {x: 0.074999996, y: -0.21499999}
+      - {x: 0.225, y: -0.195}
+      - {x: 0.405, y: -0.145}
+--- !u!114 &586575681
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 924209477}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae541563c51116647b4b73ccc4b11c98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pareja: {fileID: 802015648}
+  onMatch:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 3505560}
+        m_TargetAssemblyTypeName: ManagerActividad, Assembly-CSharp
+        m_MethodName: AgregarRespuestaCorrecta
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  onTry:
+    m_PersistentCalls:
+      m_Calls: []
+  onUnmatch:
+    m_PersistentCalls:
+      m_Calls: []
+  moveToMatchPosition: 0
+  disableOnMatch: 1
+--- !u!114 &586575682
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 924209477}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a53258acc8eca244fbba19d23474ded1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onMouseDown:
+    m_PersistentCalls:
+      m_Calls: []
+  onMouseUp:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 586575681}
+        m_TargetAssemblyTypeName: Emparejar, Assembly-CSharp
+        m_MethodName: BuscarPareja
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  destacador: {fileID: 0}
+--- !u!60 &586575683
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 924209477}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.42, y: 0.52}
+    newSize: {x: 0.42, y: 0.52}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.21, y: 0.14}
+      - {x: 0.14, y: 0.26}
+      - {x: -0.14999999, y: 0.26}
+      - {x: -0.21, y: 0.19}
+      - {x: -0.21, y: -0.22}
+      - {x: -0.19999999, y: -0.26}
+      - {x: -0.14, y: -0.26}
+      - {x: 0, y: -0.22}
+      - {x: 0.19, y: -0.099999994}
+      - {x: 0.21, y: -0.06}
+--- !u!114 &604970176
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 924209470}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae541563c51116647b4b73ccc4b11c98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pareja: {fileID: 1643629871}
+  onMatch:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 3505560}
+        m_TargetAssemblyTypeName: ManagerActividad, Assembly-CSharp
+        m_MethodName: AgregarRespuestaCorrecta
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  onTry:
+    m_PersistentCalls:
+      m_Calls: []
+  onUnmatch:
+    m_PersistentCalls:
+      m_Calls: []
+  moveToMatchPosition: 0
+  disableOnMatch: 1
+--- !u!114 &604970177
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 924209470}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a53258acc8eca244fbba19d23474ded1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onMouseDown:
+    m_PersistentCalls:
+      m_Calls: []
+  onMouseUp:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 604970176}
+        m_TargetAssemblyTypeName: Emparejar, Assembly-CSharp
+        m_MethodName: BuscarPareja
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  destacador: {fileID: 0}
+--- !u!60 &604970178
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 924209470}
+  m_Enabled: 0
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.48, y: 0.51}
+    newSize: {x: 0.48, y: 0.51}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.12, y: 0.255}
+      - {x: 0, y: 0.225}
+      - {x: -0.14, y: 0.145}
+      - {x: -0.24, y: 0.035}
+      - {x: -0.24, y: -0.255}
+      - {x: -0.12, y: -0.255}
+      - {x: 0.13, y: -0.175}
+      - {x: 0.24, y: -0.035}
+      - {x: 0.24, y: 0.255}
+--- !u!1 &710392490
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 710392491}
+  - component: {fileID: 710392493}
+  - component: {fileID: 710392492}
+  m_Layer: 0
+  m_Name: area naranja
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &710392491
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 710392490}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -5.65, y: 3.01, z: 0.06765256}
+  m_LocalScale: {x: 2.2747338, y: 0.81209445, z: 1.1591}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 924209463}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!50 &710392492
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 710392490}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!60 &710392493
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 710392490}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0, y: 1}
+      - {x: -0.95105654, y: 0.30901697}
+      - {x: -0.5877852, y: -0.80901706}
+      - {x: 0.58778536, y: -0.80901694}
+      - {x: 0.9510565, y: 0.30901712}
+--- !u!114 &726039026
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 924209466}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae541563c51116647b4b73ccc4b11c98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pareja: {fileID: 1643629871}
+  onMatch:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 3505560}
+        m_TargetAssemblyTypeName: ManagerActividad, Assembly-CSharp
+        m_MethodName: AgregarRespuestaCorrecta
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  onTry:
+    m_PersistentCalls:
+      m_Calls: []
+  onUnmatch:
+    m_PersistentCalls:
+      m_Calls: []
+  moveToMatchPosition: 0
+  disableOnMatch: 1
+--- !u!114 &726039027
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 924209466}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a53258acc8eca244fbba19d23474ded1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onMouseDown:
+    m_PersistentCalls:
+      m_Calls: []
+  onMouseUp:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 726039026}
+        m_TargetAssemblyTypeName: Emparejar, Assembly-CSharp
+        m_MethodName: BuscarPareja
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  destacador: {fileID: 0}
+--- !u!60 &726039028
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 924209466}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.67, y: 0.42}
+    newSize: {x: 0.67, y: 0.42}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.33499998, y: 0.21}
+      - {x: 0.095, y: 0.21}
+      - {x: -0.085, y: 0.14}
+      - {x: -0.24499999, y: 0}
+      - {x: -0.33499998, y: -0.16}
+      - {x: -0.33499998, y: -0.21}
+      - {x: -0.16499999, y: -0.21}
+      - {x: 0.044999998, y: -0.17}
+      - {x: 0.255, y: 0.01}
+      - {x: 0.33499998, y: 0.14}
+--- !u!114 &758478371
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 924209485}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae541563c51116647b4b73ccc4b11c98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pareja: {fileID: 710392491}
+  onMatch:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 3505560}
+        m_TargetAssemblyTypeName: ManagerActividad, Assembly-CSharp
+        m_MethodName: AgregarRespuestaCorrecta
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  onTry:
+    m_PersistentCalls:
+      m_Calls: []
+  onUnmatch:
+    m_PersistentCalls:
+      m_Calls: []
+  moveToMatchPosition: 0
+  disableOnMatch: 1
+--- !u!114 &758478372
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 924209485}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a53258acc8eca244fbba19d23474ded1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onMouseDown:
+    m_PersistentCalls:
+      m_Calls: []
+  onMouseUp:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 758478371}
+        m_TargetAssemblyTypeName: Emparejar, Assembly-CSharp
+        m_MethodName: BuscarPareja
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  destacador: {fileID: 0}
+--- !u!60 &758478373
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 924209485}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.79, y: 0.51}
+    newSize: {x: 0.79, y: 0.51}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.275, y: 0.035}
+      - {x: 0.345, y: 0.125}
+      - {x: 0.36499998, y: 0.185}
+      - {x: 0.345, y: 0.205}
+      - {x: 0.305, y: 0.205}
+      - {x: 0.114999995, y: 0.114999995}
+      - {x: -0.024999999, y: 0.255}
+      - {x: -0.074999996, y: 0.255}
+      - {x: -0.16499999, y: 0.074999996}
+      - {x: -0.39499998, y: 0.074999996}
+      - {x: -0.39499998, y: 0.024999999}
+      - {x: -0.265, y: -0.095}
+      - {x: -0.36499998, y: -0.175}
+      - {x: -0.355, y: -0.225}
+      - {x: -0.105, y: -0.235}
+      - {x: -0.044999998, y: -0.255}
+      - {x: 0.155, y: -0.255}
+      - {x: 0.36499998, y: -0.114999995}
+      - {x: 0.39499998, y: -0.055}
+      - {x: 0.39499998, y: -0.024999999}
+--- !u!1 &802015647
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 802015648}
+  - component: {fileID: 802015650}
+  - component: {fileID: 802015649}
+  m_Layer: 0
+  m_Name: area morada
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &802015648
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 802015647}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.32, y: 3.01, z: 0.06765256}
+  m_LocalScale: {x: 2.2747338, y: 0.81209445, z: 1.1591}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 924209463}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!50 &802015649
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 802015647}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!60 &802015650
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 802015647}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0, y: 1}
+      - {x: -0.95105654, y: 0.30901697}
+      - {x: -0.5877852, y: -0.80901706}
+      - {x: 0.58778536, y: -0.80901694}
+      - {x: 0.9510565, y: 0.30901712}
+--- !u!114 &894691574
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 924209479}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae541563c51116647b4b73ccc4b11c98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pareja: {fileID: 802015648}
+  onMatch:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 3505560}
+        m_TargetAssemblyTypeName: ManagerActividad, Assembly-CSharp
+        m_MethodName: AgregarRespuestaCorrecta
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  onTry:
+    m_PersistentCalls:
+      m_Calls: []
+  onUnmatch:
+    m_PersistentCalls:
+      m_Calls: []
+  moveToMatchPosition: 0
+  disableOnMatch: 1
+--- !u!114 &894691575
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 924209479}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a53258acc8eca244fbba19d23474ded1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onMouseDown:
+    m_PersistentCalls:
+      m_Calls: []
+  onMouseUp:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 894691574}
+        m_TargetAssemblyTypeName: Emparejar, Assembly-CSharp
+        m_MethodName: BuscarPareja
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  destacador: {fileID: 0}
+--- !u!60 &894691576
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 924209479}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.46, y: 0.41}
+    newSize: {x: 0.46, y: 0.41}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.19, y: 0.175}
+      - {x: 0.08, y: 0.205}
+      - {x: -0.13, y: 0.205}
+      - {x: -0.17, y: 0.195}
+      - {x: -0.22999999, y: 0.105}
+      - {x: -0.22999999, y: -0.055}
+      - {x: -0.07, y: -0.16499999}
+      - {x: -0.04, y: -0.205}
+      - {x: 0.049999997, y: -0.205}
+      - {x: 0.17, y: -0.095}
+      - {x: 0.22999999, y: -0.024999999}
+      - {x: 0.22999999, y: 0.095}
+--- !u!114 &918579309
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 924209475}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae541563c51116647b4b73ccc4b11c98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pareja: {fileID: 802015648}
+  onMatch:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 3505560}
+        m_TargetAssemblyTypeName: ManagerActividad, Assembly-CSharp
+        m_MethodName: AgregarRespuestaCorrecta
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  onTry:
+    m_PersistentCalls:
+      m_Calls: []
+  onUnmatch:
+    m_PersistentCalls:
+      m_Calls: []
+  moveToMatchPosition: 0
+  disableOnMatch: 1
+--- !u!114 &918579310
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 924209475}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a53258acc8eca244fbba19d23474ded1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onMouseDown:
+    m_PersistentCalls:
+      m_Calls: []
+  onMouseUp:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 918579309}
+        m_TargetAssemblyTypeName: Emparejar, Assembly-CSharp
+        m_MethodName: BuscarPareja
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  destacador: {fileID: 0}
+--- !u!60 &918579311
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 924209475}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.61, y: 0.53}
+    newSize: {x: 0.61, y: 0.53}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.305, y: 0.235}
+      - {x: 0.235, y: 0.265}
+      - {x: 0.065, y: 0.265}
+      - {x: 0.024999999, y: 0.255}
+      - {x: -0.13499999, y: 0.16499999}
+      - {x: -0.255, y: -0.055}
+      - {x: -0.255, y: -0.13499999}
+      - {x: -0.305, y: -0.21499999}
+      - {x: -0.305, y: -0.265}
+      - {x: -0.074999996, y: -0.265}
+      - {x: 0.145, y: -0.195}
+      - {x: 0.305, y: -0.005}
+--- !u!1001 &924209461
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8653719598885068355, guid: f20bd63a9e3cca642860dc80130a7f70,
+        type: 3}
+      propertyPath: m_Name
+      value: hojas
+      objectReference: {fileID: 0}
+    - target: {fileID: -8653719598885068355, guid: f20bd63a9e3cca642860dc80130a7f70,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7552582706839291426, guid: f20bd63a9e3cca642860dc80130a7f70,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -7552582706839291426, guid: f20bd63a9e3cca642860dc80130a7f70,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7552582706839291426, guid: f20bd63a9e3cca642860dc80130a7f70,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -5.4
+      objectReference: {fileID: 0}
+    - target: {fileID: -7552582706839291426, guid: f20bd63a9e3cca642860dc80130a7f70,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7552582706839291426, guid: f20bd63a9e3cca642860dc80130a7f70,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7552582706839291426, guid: f20bd63a9e3cca642860dc80130a7f70,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7552582706839291426, guid: f20bd63a9e3cca642860dc80130a7f70,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7552582706839291426, guid: f20bd63a9e3cca642860dc80130a7f70,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7552582706839291426, guid: f20bd63a9e3cca642860dc80130a7f70,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7552582706839291426, guid: f20bd63a9e3cca642860dc80130a7f70,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7552582706839291426, guid: f20bd63a9e3cca642860dc80130a7f70,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 4843985084834002234, guid: f20bd63a9e3cca642860dc80130a7f70,
+    type: 3}
+--- !u!1 &924209462 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -8653719598885068355, guid: f20bd63a9e3cca642860dc80130a7f70,
+    type: 3}
+  m_PrefabInstance: {fileID: 924209461}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &924209463 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -7552582706839291426, guid: f20bd63a9e3cca642860dc80130a7f70,
+    type: 3}
+  m_PrefabInstance: {fileID: 924209461}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &924209464 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -80953062206764907, guid: f20bd63a9e3cca642860dc80130a7f70,
+    type: 3}
+  m_PrefabInstance: {fileID: 924209461}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &924209465 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -4342961365923585280, guid: f20bd63a9e3cca642860dc80130a7f70,
+    type: 3}
+  m_PrefabInstance: {fileID: 924209461}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &924209466 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7715634853025446145, guid: f20bd63a9e3cca642860dc80130a7f70,
+    type: 3}
+  m_PrefabInstance: {fileID: 924209461}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &924209467 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4003182531034287656, guid: f20bd63a9e3cca642860dc80130a7f70,
+    type: 3}
+  m_PrefabInstance: {fileID: 924209461}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &924209468 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7754631048779430881, guid: f20bd63a9e3cca642860dc80130a7f70,
+    type: 3}
+  m_PrefabInstance: {fileID: 924209461}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &924209469 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -6721860206646471073, guid: f20bd63a9e3cca642860dc80130a7f70,
+    type: 3}
+  m_PrefabInstance: {fileID: 924209461}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &924209470 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -4657398576862468022, guid: f20bd63a9e3cca642860dc80130a7f70,
+    type: 3}
+  m_PrefabInstance: {fileID: 924209461}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &924209471 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 428161714333068858, guid: f20bd63a9e3cca642860dc80130a7f70,
+    type: 3}
+  m_PrefabInstance: {fileID: 924209461}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &924209472 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -1193412620206141886, guid: f20bd63a9e3cca642860dc80130a7f70,
+    type: 3}
+  m_PrefabInstance: {fileID: 924209461}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &924209473 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3993164472198634952, guid: f20bd63a9e3cca642860dc80130a7f70,
+    type: 3}
+  m_PrefabInstance: {fileID: 924209461}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &924209474 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 853843270640487713, guid: f20bd63a9e3cca642860dc80130a7f70,
+    type: 3}
+  m_PrefabInstance: {fileID: 924209461}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &924209475 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4345761956155143463, guid: f20bd63a9e3cca642860dc80130a7f70,
+    type: 3}
+  m_PrefabInstance: {fileID: 924209461}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &924209476 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3161980046211466098, guid: f20bd63a9e3cca642860dc80130a7f70,
+    type: 3}
+  m_PrefabInstance: {fileID: 924209461}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &924209477 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -4720473537381613329, guid: f20bd63a9e3cca642860dc80130a7f70,
+    type: 3}
+  m_PrefabInstance: {fileID: 924209461}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &924209478 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -7410084318255231981, guid: f20bd63a9e3cca642860dc80130a7f70,
+    type: 3}
+  m_PrefabInstance: {fileID: 924209461}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &924209479 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -8852322437922149851, guid: f20bd63a9e3cca642860dc80130a7f70,
+    type: 3}
+  m_PrefabInstance: {fileID: 924209461}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &924209480 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -6080760489931283555, guid: f20bd63a9e3cca642860dc80130a7f70,
+    type: 3}
+  m_PrefabInstance: {fileID: 924209461}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &924209481 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -960017772771923945, guid: f20bd63a9e3cca642860dc80130a7f70,
+    type: 3}
+  m_PrefabInstance: {fileID: 924209461}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &924209482 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8391442413222246251, guid: f20bd63a9e3cca642860dc80130a7f70,
+    type: 3}
+  m_PrefabInstance: {fileID: 924209461}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &924209483 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2305289281894641258, guid: f20bd63a9e3cca642860dc80130a7f70,
+    type: 3}
+  m_PrefabInstance: {fileID: 924209461}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &924209484 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8708523672495273609, guid: f20bd63a9e3cca642860dc80130a7f70,
+    type: 3}
+  m_PrefabInstance: {fileID: 924209461}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &924209485 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -4849726455404097079, guid: f20bd63a9e3cca642860dc80130a7f70,
+    type: 3}
+  m_PrefabInstance: {fileID: 924209461}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &924209486 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -1727667141839363469, guid: f20bd63a9e3cca642860dc80130a7f70,
+    type: 3}
+  m_PrefabInstance: {fileID: 924209461}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &924209487 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3990272141301495129, guid: f20bd63a9e3cca642860dc80130a7f70,
+    type: 3}
+  m_PrefabInstance: {fileID: 924209461}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &924209488 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4272075373037499854, guid: f20bd63a9e3cca642860dc80130a7f70,
+    type: 3}
+  m_PrefabInstance: {fileID: 924209461}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &924209489 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8009148892970722120, guid: f20bd63a9e3cca642860dc80130a7f70,
+    type: 3}
+  m_PrefabInstance: {fileID: 924209461}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &924209490 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7622799183422011682, guid: f20bd63a9e3cca642860dc80130a7f70,
+    type: 3}
+  m_PrefabInstance: {fileID: 924209461}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &924209491
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 924209486}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae541563c51116647b4b73ccc4b11c98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pareja: {fileID: 710392491}
+  onMatch:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 3505560}
+        m_TargetAssemblyTypeName: ManagerActividad, Assembly-CSharp
+        m_MethodName: AgregarRespuestaCorrecta
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  onTry:
+    m_PersistentCalls:
+      m_Calls: []
+  onUnmatch:
+    m_PersistentCalls:
+      m_Calls: []
+  moveToMatchPosition: 0
+  disableOnMatch: 1
+--- !u!114 &924209492
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 924209486}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a53258acc8eca244fbba19d23474ded1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onMouseDown:
+    m_PersistentCalls:
+      m_Calls: []
+  onMouseUp:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 924209491}
+        m_TargetAssemblyTypeName: Emparejar, Assembly-CSharp
+        m_MethodName: BuscarPareja
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  destacador: {fileID: 0}
+--- !u!60 &924209493
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 924209486}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.62, y: 0.62}
+    newSize: {x: 0.62, y: 0.62}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.31, y: 0.07}
+      - {x: 0.29999998, y: 0.089999996}
+      - {x: 0.089999996, y: 0.31}
+      - {x: 0.03, y: 0.31}
+      - {x: 0.01, y: 0.29999998}
+      - {x: -0.14999999, y: 0.25}
+      - {x: -0.25, y: 0.29}
+      - {x: -0.29, y: 0.24}
+      - {x: -0.17, y: 0.02}
+      - {x: -0.28, y: -0.01}
+      - {x: -0.31, y: -0.03}
+      - {x: -0.31, y: -0.08}
+      - {x: -0.26, y: -0.11}
+      - {x: -0.07, y: -0.31}
+      - {x: 0.29999998, y: -0.31}
+      - {x: 0.29999998, y: -0.099999994}
+      - {x: 0.31, y: -0.049999997}
+--- !u!114 &924209494
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 924209489}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae541563c51116647b4b73ccc4b11c98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pareja: {fileID: 710392491}
+  onMatch:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 3505560}
+        m_TargetAssemblyTypeName: ManagerActividad, Assembly-CSharp
+        m_MethodName: AgregarRespuestaCorrecta
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  onTry:
+    m_PersistentCalls:
+      m_Calls: []
+  onUnmatch:
+    m_PersistentCalls:
+      m_Calls: []
+  moveToMatchPosition: 0
+  disableOnMatch: 1
+--- !u!114 &924209495
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 924209489}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a53258acc8eca244fbba19d23474ded1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onMouseDown:
+    m_PersistentCalls:
+      m_Calls: []
+  onMouseUp:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 924209494}
+        m_TargetAssemblyTypeName: Emparejar, Assembly-CSharp
+        m_MethodName: BuscarPareja
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  destacador: {fileID: 0}
+--- !u!60 &924209496
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 924209489}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.9, y: 0.45}
+    newSize: {x: 0.9, y: 0.45}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.26, y: -0.095}
+      - {x: 0.34, y: -0.085}
+      - {x: 0.45, y: -0.024999999}
+      - {x: 0.45, y: 0.035}
+      - {x: 0.19999999, y: 0.114999995}
+      - {x: 0.26, y: 0.225}
+      - {x: 0.049999997, y: 0.225}
+      - {x: -0.089999996, y: 0.16499999}
+      - {x: -0.14999999, y: 0.225}
+      - {x: -0.24, y: 0.225}
+      - {x: -0.26, y: 0.21499999}
+      - {x: -0.31, y: 0.13499999}
+      - {x: -0.45, y: 0.065}
+      - {x: -0.45, y: -0.024999999}
+      - {x: -0.28, y: -0.024999999}
+      - {x: -0.29999998, y: -0.024999999}
+      - {x: -0.35999998, y: -0.105}
+      - {x: -0.26999998, y: -0.225}
+      - {x: -0.14, y: -0.225}
+      - {x: -0.049999997, y: -0.185}
+      - {x: 0.11, y: -0.225}
+      - {x: 0.26999998, y: -0.225}
+--- !u!1 &961739749
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 961739753}
+  - component: {fileID: 961739752}
+  - component: {fileID: 961739751}
+  - component: {fileID: 961739750}
+  m_Layer: 0
+  m_Name: Main Camera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &961739750
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 961739749}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_RenderShadows: 1
+  m_RequiresDepthTextureOption: 2
+  m_RequiresOpaqueTextureOption: 2
+  m_CameraType: 0
+  m_Cameras: []
+  m_RendererIndex: -1
+  m_VolumeLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  m_VolumeTrigger: {fileID: 0}
+  m_VolumeFrameworkUpdateModeOption: 2
+  m_RenderPostProcessing: 0
+  m_Antialiasing: 0
+  m_AntialiasingQuality: 2
+  m_StopNaN: 0
+  m_Dithering: 0
+  m_ClearDepth: 1
+  m_AllowXRRendering: 1
+  m_RequiresDepthTexture: 0
+  m_RequiresColorTexture: 0
+  m_Version: 2
+--- !u!81 &961739751
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 961739749}
+  m_Enabled: 1
+--- !u!20 &961739752
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 961739749}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 1, g: 1, b: 1, a: 0}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_FocalLength: 50
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 1
+  orthographic size: 5.4
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!4 &961739753
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 961739749}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1017019208
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 924209469}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae541563c51116647b4b73ccc4b11c98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pareja: {fileID: 1643629871}
+  onMatch:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 3505560}
+        m_TargetAssemblyTypeName: ManagerActividad, Assembly-CSharp
+        m_MethodName: AgregarRespuestaCorrecta
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  onTry:
+    m_PersistentCalls:
+      m_Calls: []
+  onUnmatch:
+    m_PersistentCalls:
+      m_Calls: []
+  moveToMatchPosition: 0
+  disableOnMatch: 1
+--- !u!114 &1017019209
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 924209469}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a53258acc8eca244fbba19d23474ded1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onMouseDown:
+    m_PersistentCalls:
+      m_Calls: []
+  onMouseUp:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1017019208}
+        m_TargetAssemblyTypeName: Emparejar, Assembly-CSharp
+        m_MethodName: BuscarPareja
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  destacador: {fileID: 0}
+--- !u!60 &1017019210
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 924209469}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.61, y: 0.54}
+    newSize: {x: 0.61, y: 0.54}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.305, y: 0.26999998}
+      - {x: 0.175, y: 0.26999998}
+      - {x: 0.044999998, y: 0.24}
+      - {x: -0.125, y: 0.14}
+      - {x: -0.21499999, y: 0.04}
+      - {x: -0.305, y: -0.24}
+      - {x: -0.305, y: -0.26999998}
+      - {x: -0.205, y: -0.26999998}
+      - {x: -0.024999999, y: -0.21}
+      - {x: 0.074999996, y: -0.17999999}
+      - {x: 0.225, y: -0.04}
+      - {x: 0.305, y: 0.14}
+--- !u!114 &1098239295
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 924209464}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae541563c51116647b4b73ccc4b11c98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pareja: {fileID: 1643629871}
+  onMatch:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 3505560}
+        m_TargetAssemblyTypeName: ManagerActividad, Assembly-CSharp
+        m_MethodName: AgregarRespuestaCorrecta
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  onTry:
+    m_PersistentCalls:
+      m_Calls: []
+  onUnmatch:
+    m_PersistentCalls:
+      m_Calls: []
+  moveToMatchPosition: 0
+  disableOnMatch: 1
+--- !u!114 &1098239296
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 924209464}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a53258acc8eca244fbba19d23474ded1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onMouseDown:
+    m_PersistentCalls:
+      m_Calls: []
+  onMouseUp:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1098239295}
+        m_TargetAssemblyTypeName: Emparejar, Assembly-CSharp
+        m_MethodName: BuscarPareja
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  destacador: {fileID: 0}
+--- !u!60 &1098239297
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 924209464}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.77, y: 0.37}
+    newSize: {x: 0.77, y: 0.37}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.385, y: 0.185}
+      - {x: -0.385, y: 0.125}
+      - {x: -0.125, y: -0.125}
+      - {x: 0.035, y: -0.185}
+      - {x: 0.385, y: -0.185}
+      - {x: 0.385, y: -0.044999998}
+      - {x: 0.055, y: 0.185}
+--- !u!114 &1098672553
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 924209474}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae541563c51116647b4b73ccc4b11c98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pareja: {fileID: 802015648}
+  onMatch:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 3505560}
+        m_TargetAssemblyTypeName: ManagerActividad, Assembly-CSharp
+        m_MethodName: AgregarRespuestaCorrecta
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  onTry:
+    m_PersistentCalls:
+      m_Calls: []
+  onUnmatch:
+    m_PersistentCalls:
+      m_Calls: []
+  moveToMatchPosition: 0
+  disableOnMatch: 1
+--- !u!114 &1098672554
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 924209474}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a53258acc8eca244fbba19d23474ded1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onMouseDown:
+    m_PersistentCalls:
+      m_Calls: []
+  onMouseUp:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1098672553}
+        m_TargetAssemblyTypeName: Emparejar, Assembly-CSharp
+        m_MethodName: BuscarPareja
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  destacador: {fileID: 0}
+--- !u!60 &1098672555
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 924209474}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.69, y: 0.55}
+    newSize: {x: 0.69, y: 0.55}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.345, y: -0.005}
+      - {x: 0.345, y: 0.225}
+      - {x: 0.33499998, y: 0.24499999}
+      - {x: 0.255, y: 0.275}
+      - {x: 0.024999999, y: 0.275}
+      - {x: -0.105, y: 0.195}
+      - {x: -0.285, y: -0.074999996}
+      - {x: -0.345, y: -0.185}
+      - {x: -0.345, y: -0.275}
+      - {x: -0.195, y: -0.275}
+      - {x: -0.024999999, y: -0.255}
+      - {x: 0.005, y: -0.21499999}
+      - {x: 0.195, y: -0.205}
+      - {x: 0.305, y: -0.074999996}
+--- !u!114 &1132306421
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 924209480}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae541563c51116647b4b73ccc4b11c98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pareja: {fileID: 802015648}
+  onMatch:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 3505560}
+        m_TargetAssemblyTypeName: ManagerActividad, Assembly-CSharp
+        m_MethodName: AgregarRespuestaCorrecta
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  onTry:
+    m_PersistentCalls:
+      m_Calls: []
+  onUnmatch:
+    m_PersistentCalls:
+      m_Calls: []
+  moveToMatchPosition: 0
+  disableOnMatch: 1
+--- !u!114 &1132306422
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 924209480}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a53258acc8eca244fbba19d23474ded1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onMouseDown:
+    m_PersistentCalls:
+      m_Calls: []
+  onMouseUp:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1132306421}
+        m_TargetAssemblyTypeName: Emparejar, Assembly-CSharp
+        m_MethodName: BuscarPareja
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  destacador: {fileID: 0}
+--- !u!60 &1132306423
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 924209480}
+  m_Enabled: 0
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.39, y: 0.42}
+    newSize: {x: 0.39, y: 0.42}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.095, y: 0.21}
+      - {x: -0.105, y: 0.21}
+      - {x: -0.195, y: 0.13}
+      - {x: -0.195, y: -0.099999994}
+      - {x: -0.145, y: -0.21}
+      - {x: -0.035, y: -0.21}
+      - {x: 0.035, y: -0.19}
+      - {x: 0.16499999, y: -0.12}
+      - {x: 0.195, y: -0.07}
+      - {x: 0.195, y: 0.11}
+--- !u!114 &1154209821
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 924209487}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae541563c51116647b4b73ccc4b11c98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pareja: {fileID: 710392491}
+  onMatch:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 3505560}
+        m_TargetAssemblyTypeName: ManagerActividad, Assembly-CSharp
+        m_MethodName: AgregarRespuestaCorrecta
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  onTry:
+    m_PersistentCalls:
+      m_Calls: []
+  onUnmatch:
+    m_PersistentCalls:
+      m_Calls: []
+  moveToMatchPosition: 0
+  disableOnMatch: 1
+--- !u!114 &1154209822
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 924209487}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a53258acc8eca244fbba19d23474ded1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onMouseDown:
+    m_PersistentCalls:
+      m_Calls: []
+  onMouseUp:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1154209821}
+        m_TargetAssemblyTypeName: Emparejar, Assembly-CSharp
+        m_MethodName: BuscarPareja
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  destacador: {fileID: 0}
+--- !u!60 &1154209823
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 924209487}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.67, y: 0.6}
+    newSize: {x: 0.67, y: 0.6}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.265, y: -0.099999994}
+      - {x: 0.33499998, y: -0.02}
+      - {x: 0.33499998, y: 0.06}
+      - {x: 0.235, y: 0.07}
+      - {x: 0.205, y: 0.29}
+      - {x: 0.185, y: 0.29999998}
+      - {x: 0.114999995, y: 0.29999998}
+      - {x: 0.044999998, y: 0.17999999}
+      - {x: -0.125, y: 0.29999998}
+      - {x: -0.185, y: 0.29999998}
+      - {x: -0.195, y: 0.14}
+      - {x: -0.145, y: 0.04}
+      - {x: -0.325, y: 0.02}
+      - {x: -0.33499998, y: 0}
+      - {x: -0.33499998, y: -0.049999997}
+      - {x: -0.315, y: -0.07}
+      - {x: -0.145, y: -0.14999999}
+      - {x: -0.195, y: -0.24}
+      - {x: -0.16499999, y: -0.29999998}
+      - {x: -0.125, y: -0.29999998}
+      - {x: -0.105, y: -0.29}
+      - {x: 0.044999998, y: -0.26999998}
+      - {x: 0.155, y: -0.29999998}
+      - {x: 0.205, y: -0.29999998}
+--- !u!114 &1380121335
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 924209472}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae541563c51116647b4b73ccc4b11c98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pareja: {fileID: 1643629871}
+  onMatch:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 3505560}
+        m_TargetAssemblyTypeName: ManagerActividad, Assembly-CSharp
+        m_MethodName: AgregarRespuestaCorrecta
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  onTry:
+    m_PersistentCalls:
+      m_Calls: []
+  onUnmatch:
+    m_PersistentCalls:
+      m_Calls: []
+  moveToMatchPosition: 0
+  disableOnMatch: 1
+--- !u!114 &1380121336
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 924209472}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a53258acc8eca244fbba19d23474ded1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onMouseDown:
+    m_PersistentCalls:
+      m_Calls: []
+  onMouseUp:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1380121335}
+        m_TargetAssemblyTypeName: Emparejar, Assembly-CSharp
+        m_MethodName: BuscarPareja
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  destacador: {fileID: 0}
+--- !u!60 &1380121337
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 924209472}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.41, y: 0.46}
+    newSize: {x: 0.41, y: 0.46}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.195, y: 0.22999999}
+      - {x: -0.205, y: 0.21}
+      - {x: -0.205, y: 0.089999996}
+      - {x: -0.185, y: -0.04}
+      - {x: -0.155, y: -0.089999996}
+      - {x: -0.105, y: -0.14999999}
+      - {x: 0.044999998, y: -0.22999999}
+      - {x: 0.205, y: -0.22999999}
+      - {x: 0.205, y: 0.089999996}
+      - {x: -0.055, y: 0.22999999}
+--- !u!114 &1382051004
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 924209481}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae541563c51116647b4b73ccc4b11c98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pareja: {fileID: 802015648}
+  onMatch:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 3505560}
+        m_TargetAssemblyTypeName: ManagerActividad, Assembly-CSharp
+        m_MethodName: AgregarRespuestaCorrecta
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  onTry:
+    m_PersistentCalls:
+      m_Calls: []
+  onUnmatch:
+    m_PersistentCalls:
+      m_Calls: []
+  moveToMatchPosition: 0
+  disableOnMatch: 1
+--- !u!114 &1382051005
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 924209481}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a53258acc8eca244fbba19d23474ded1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onMouseDown:
+    m_PersistentCalls:
+      m_Calls: []
+  onMouseUp:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1382051004}
+        m_TargetAssemblyTypeName: Emparejar, Assembly-CSharp
+        m_MethodName: BuscarPareja
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  destacador: {fileID: 0}
+--- !u!60 &1382051006
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 924209481}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.51, y: 0.56}
+    newSize: {x: 0.51, y: 0.56}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.255, y: 0.25}
+      - {x: 0.16499999, y: 0.28}
+      - {x: -0.114999995, y: 0.28}
+      - {x: -0.255, y: 0.14999999}
+      - {x: -0.255, y: -0.08}
+      - {x: -0.155, y: -0.17999999}
+      - {x: 0.005, y: -0.25}
+      - {x: 0.065, y: -0.28}
+      - {x: 0.125, y: -0.28}
+      - {x: 0.13499999, y: -0.26999998}
+      - {x: 0.235, y: -0.089999996}
+      - {x: 0.255, y: -0.06}
+--- !u!114 &1405898532
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 924209483}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae541563c51116647b4b73ccc4b11c98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pareja: {fileID: 710392491}
+  onMatch:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 3505560}
+        m_TargetAssemblyTypeName: ManagerActividad, Assembly-CSharp
+        m_MethodName: AgregarRespuestaCorrecta
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  onTry:
+    m_PersistentCalls:
+      m_Calls: []
+  onUnmatch:
+    m_PersistentCalls:
+      m_Calls: []
+  moveToMatchPosition: 0
+  disableOnMatch: 1
+--- !u!114 &1405898533
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 924209483}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a53258acc8eca244fbba19d23474ded1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onMouseDown:
+    m_PersistentCalls:
+      m_Calls: []
+  onMouseUp:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1405898532}
+        m_TargetAssemblyTypeName: Emparejar, Assembly-CSharp
+        m_MethodName: BuscarPareja
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  destacador: {fileID: 0}
+--- !u!60 &1405898534
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 924209483}
+  m_Enabled: 0
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.69, y: 0.67}
+    newSize: {x: 0.69, y: 0.67}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.345, y: 0.155}
+      - {x: 0.345, y: 0.205}
+      - {x: 0.325, y: 0.21499999}
+      - {x: 0.055, y: 0.155}
+      - {x: 0.065, y: 0.33499998}
+      - {x: -0.015, y: 0.33499998}
+      - {x: -0.13499999, y: 0.185}
+      - {x: -0.305, y: 0.16499999}
+      - {x: -0.315, y: 0.125}
+      - {x: -0.295, y: 0.074999996}
+      - {x: -0.315, y: -0.065}
+      - {x: -0.345, y: -0.155}
+      - {x: -0.345, y: -0.235}
+      - {x: -0.175, y: -0.255}
+      - {x: -0.155, y: -0.265}
+      - {x: -0.055, y: -0.33499998}
+      - {x: 0.074999996, y: -0.33499998}
+      - {x: 0.305, y: -0.185}
+      - {x: 0.33499998, y: -0.125}
+      - {x: 0.185, y: -0.015}
+--- !u!114 &1457569105
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 924209465}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae541563c51116647b4b73ccc4b11c98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pareja: {fileID: 1643629871}
+  onMatch:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 3505560}
+        m_TargetAssemblyTypeName: ManagerActividad, Assembly-CSharp
+        m_MethodName: AgregarRespuestaCorrecta
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  onTry:
+    m_PersistentCalls:
+      m_Calls: []
+  onUnmatch:
+    m_PersistentCalls:
+      m_Calls: []
+  moveToMatchPosition: 0
+  disableOnMatch: 1
+--- !u!114 &1457569106
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 924209465}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a53258acc8eca244fbba19d23474ded1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onMouseDown:
+    m_PersistentCalls:
+      m_Calls: []
+  onMouseUp:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1457569105}
+        m_TargetAssemblyTypeName: Emparejar, Assembly-CSharp
+        m_MethodName: BuscarPareja
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  destacador: {fileID: 0}
+--- !u!60 &1457569107
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 924209465}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.76, y: 0.38}
+    newSize: {x: 0.76, y: 0.38}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.02, y: 0.19}
+      - {x: -0.17, y: 0.19}
+      - {x: -0.26999998, y: 0.17}
+      - {x: -0.31, y: 0.19}
+      - {x: -0.38, y: 0.19}
+      - {x: -0.38, y: 0.13}
+      - {x: -0.17, y: -0.11}
+      - {x: -0.049999997, y: -0.16}
+      - {x: 0.07, y: -0.19}
+      - {x: 0.38, y: -0.19}
+      - {x: 0.38, y: -0.11}
+      - {x: 0.19, y: 0.11}
+--- !u!1 &1609848314
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1609848317}
+  - component: {fileID: 1609848316}
+  - component: {fileID: 1609848315}
+  m_Layer: 0
+  m_Name: intro
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1609848315
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1609848314}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cdf518e79036a84eb166043d684c33e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  videoPlayer: {fileID: 1609848316}
+  onVideoEnd:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 924209462}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1609848314}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!328 &1609848316
+VideoPlayer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1609848314}
+  m_Enabled: 1
+  m_VideoClip: {fileID: 0}
+  m_TargetCameraAlpha: 1
+  m_TargetCamera3DLayout: 0
+  m_TargetCamera: {fileID: 961739752}
+  m_TargetTexture: {fileID: 0}
+  m_TimeReference: 0
+  m_TargetMaterialRenderer: {fileID: 0}
+  m_TargetMaterialProperty: <noninit>
+  m_RenderMode: 0
+  m_AspectRatio: 2
+  m_DataSource: 1
+  m_PlaybackSpeed: 1
+  m_AudioOutputMode: 2
+  m_TargetAudioSources:
+  - {fileID: 0}
+  m_DirectAudioVolumes:
+  - 1
+  m_Url: https://storage.googleapis.com/videosactividades/Hojas/intro.mp4
+  m_EnabledAudioTracks: 01
+  m_DirectAudioMutes: 00
+  m_ControlledAudioTrackCount: 1
+  m_PlayOnAwake: 1
+  m_SkipOnDrop: 1
+  m_Looping: 0
+  m_WaitForFirstFrame: 1
+  m_FrameReadyEventEnabled: 0
+  m_VideoShaders: []
+--- !u!4 &1609848317
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1609848314}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -6.651933, y: -2.4354873, z: 0.12038149}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1643629870
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1643629871}
+  - component: {fileID: 1643629873}
+  - component: {fileID: 1643629872}
+  m_Layer: 0
+  m_Name: area amarilla
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1643629871
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1643629870}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 5.19, y: 3.01, z: 0.06765256}
+  m_LocalScale: {x: 2.2747338, y: 0.81209445, z: 1.1591}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 924209463}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!50 &1643629872
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1643629870}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!60 &1643629873
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1643629870}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0, y: 1}
+      - {x: -0.95105654, y: 0.30901697}
+      - {x: -0.5877852, y: -0.80901706}
+      - {x: 0.58778536, y: -0.80901694}
+      - {x: 0.9510565, y: 0.30901712}
+--- !u!1 &1840454838
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1840454841}
+  - component: {fileID: 1840454840}
+  - component: {fileID: 1840454839}
+  - component: {fileID: 1840454842}
+  m_Layer: 0
+  m_Name: final
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1840454839
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1840454838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cdf518e79036a84eb166043d684c33e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  videoPlayer: {fileID: 1840454840}
+  onVideoEnd:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1840454842}
+        m_TargetAssemblyTypeName: CambiadorEscenas, Assembly-CSharp
+        m_MethodName: CambiarDeEscena
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!328 &1840454840
+VideoPlayer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1840454838}
+  m_Enabled: 1
+  m_VideoClip: {fileID: 0}
+  m_TargetCameraAlpha: 1
+  m_TargetCamera3DLayout: 0
+  m_TargetCamera: {fileID: 961739752}
+  m_TargetTexture: {fileID: 0}
+  m_TimeReference: 0
+  m_TargetMaterialRenderer: {fileID: 0}
+  m_TargetMaterialProperty: <noninit>
+  m_RenderMode: 1
+  m_AspectRatio: 2
+  m_DataSource: 1
+  m_PlaybackSpeed: 1
+  m_AudioOutputMode: 2
+  m_TargetAudioSources:
+  - {fileID: 0}
+  m_DirectAudioVolumes:
+  - 1
+  m_Url: https://storage.googleapis.com/videosactividades/Hojas/final.mp4
+  m_EnabledAudioTracks: 01
+  m_DirectAudioMutes: 00
+  m_ControlledAudioTrackCount: 1
+  m_PlayOnAwake: 0
+  m_SkipOnDrop: 1
+  m_Looping: 0
+  m_WaitForFirstFrame: 1
+  m_FrameReadyEventEnabled: 0
+  m_VideoShaders: []
+--- !u!4 &1840454841
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1840454838}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -6.651933, y: -2.4354873, z: 0.12038149}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1840454842
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1840454838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2de81c3b212b2a143b11e365107729a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nombreEscenaDestino: 
+  IDAnclaDestino: 
+--- !u!114 &1866947012
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 924209468}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae541563c51116647b4b73ccc4b11c98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pareja: {fileID: 1643629871}
+  onMatch:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 3505560}
+        m_TargetAssemblyTypeName: ManagerActividad, Assembly-CSharp
+        m_MethodName: AgregarRespuestaCorrecta
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  onTry:
+    m_PersistentCalls:
+      m_Calls: []
+  onUnmatch:
+    m_PersistentCalls:
+      m_Calls: []
+  moveToMatchPosition: 0
+  disableOnMatch: 1
+--- !u!114 &1866947013
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 924209468}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a53258acc8eca244fbba19d23474ded1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onMouseDown:
+    m_PersistentCalls:
+      m_Calls: []
+  onMouseUp:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1866947012}
+        m_TargetAssemblyTypeName: Emparejar, Assembly-CSharp
+        m_MethodName: BuscarPareja
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  destacador: {fileID: 0}
+--- !u!60 &1866947014
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 924209468}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.7, y: 0.39}
+    newSize: {x: 0.7, y: 0.39}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.04, y: 0.195}
+      - {x: -0.14, y: 0.13499999}
+      - {x: -0.35, y: -0.105}
+      - {x: -0.35, y: -0.185}
+      - {x: -0.34, y: -0.195}
+      - {x: -0.24, y: -0.195}
+      - {x: 0.03, y: -0.16499999}
+      - {x: 0.17999999, y: -0.125}
+      - {x: 0.35, y: 0.125}
+      - {x: 0.35, y: 0.195}
+--- !u!114 &1938860288
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 924209476}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae541563c51116647b4b73ccc4b11c98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pareja: {fileID: 802015648}
+  onMatch:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 3505560}
+        m_TargetAssemblyTypeName: ManagerActividad, Assembly-CSharp
+        m_MethodName: AgregarRespuestaCorrecta
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  onTry:
+    m_PersistentCalls:
+      m_Calls: []
+  onUnmatch:
+    m_PersistentCalls:
+      m_Calls: []
+  moveToMatchPosition: 0
+  disableOnMatch: 1
+--- !u!114 &1938860289
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 924209476}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a53258acc8eca244fbba19d23474ded1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onMouseDown:
+    m_PersistentCalls:
+      m_Calls: []
+  onMouseUp:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1938860288}
+        m_TargetAssemblyTypeName: Emparejar, Assembly-CSharp
+        m_MethodName: BuscarPareja
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  destacador: {fileID: 0}
+--- !u!60 &1938860290
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 924209476}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.81, y: 0.43}
+    newSize: {x: 0.81, y: 0.43}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.385, y: 0.125}
+      - {x: 0.205, y: 0.175}
+      - {x: 0.13499999, y: 0.21499999}
+      - {x: -0.085, y: 0.21499999}
+      - {x: -0.205, y: 0.205}
+      - {x: -0.39499998, y: 0.13499999}
+      - {x: -0.405, y: 0.13499999}
+      - {x: -0.405, y: 0.065}
+      - {x: -0.24499999, y: -0.085}
+      - {x: -0.065, y: -0.21499999}
+      - {x: 0.024999999, y: -0.21499999}
+      - {x: 0.055, y: -0.205}
+      - {x: 0.105, y: -0.21499999}
+      - {x: 0.285, y: -0.21499999}
+      - {x: 0.295, y: -0.205}
+      - {x: 0.405, y: -0.125}
+      - {x: 0.405, y: 0.044999998}
+--- !u!114 &1968114383
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 924209488}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae541563c51116647b4b73ccc4b11c98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pareja: {fileID: 710392491}
+  onMatch:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 3505560}
+        m_TargetAssemblyTypeName: ManagerActividad, Assembly-CSharp
+        m_MethodName: AgregarRespuestaCorrecta
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  onTry:
+    m_PersistentCalls:
+      m_Calls: []
+  onUnmatch:
+    m_PersistentCalls:
+      m_Calls: []
+  moveToMatchPosition: 0
+  disableOnMatch: 1
+--- !u!114 &1968114384
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 924209488}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a53258acc8eca244fbba19d23474ded1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onMouseDown:
+    m_PersistentCalls:
+      m_Calls: []
+  onMouseUp:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1968114383}
+        m_TargetAssemblyTypeName: Emparejar, Assembly-CSharp
+        m_MethodName: BuscarPareja
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  destacador: {fileID: 0}
+--- !u!60 &1968114385
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 924209488}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.69, y: 0.41}
+    newSize: {x: 0.69, y: 0.41}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.345, y: -0.015}
+      - {x: 0.345, y: 0.024999999}
+      - {x: 0.175, y: 0.105}
+      - {x: 0.21499999, y: 0.205}
+      - {x: 0.074999996, y: 0.205}
+      - {x: -0.074999996, y: 0.155}
+      - {x: -0.105, y: 0.205}
+      - {x: -0.195, y: 0.205}
+      - {x: -0.345, y: 0.055}
+      - {x: -0.345, y: -0.024999999}
+      - {x: -0.275, y: -0.095}
+      - {x: -0.195, y: -0.205}
+      - {x: 0.195, y: -0.205}
+      - {x: 0.185, y: -0.16499999}
+      - {x: 0.315, y: -0.035}
+--- !u!114 &2037521572
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 924209482}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae541563c51116647b4b73ccc4b11c98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pareja: {fileID: 710392491}
+  onMatch:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 3505560}
+        m_TargetAssemblyTypeName: ManagerActividad, Assembly-CSharp
+        m_MethodName: AgregarRespuestaCorrecta
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  onTry:
+    m_PersistentCalls:
+      m_Calls: []
+  onUnmatch:
+    m_PersistentCalls:
+      m_Calls: []
+  moveToMatchPosition: 0
+  disableOnMatch: 1
+--- !u!114 &2037521573
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 924209482}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a53258acc8eca244fbba19d23474ded1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onMouseDown:
+    m_PersistentCalls:
+      m_Calls: []
+  onMouseUp:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2037521572}
+        m_TargetAssemblyTypeName: Emparejar, Assembly-CSharp
+        m_MethodName: BuscarPareja
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  destacador: {fileID: 0}
+--- !u!60 &2037521574
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 924209482}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.82, y: 0.72}
+    newSize: {x: 0.82, y: 0.72}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.41, y: -0.08}
+      - {x: 0.41, y: -0.03}
+      - {x: 0.39999998, y: -0.01}
+      - {x: 0.26999998, y: 0.02}
+      - {x: 0.32999998, y: 0.22}
+      - {x: 0.29999998, y: 0.32999998}
+      - {x: 0.099999994, y: 0.19999999}
+      - {x: -0.08, y: 0.35999998}
+      - {x: -0.14999999, y: 0.35999998}
+      - {x: -0.17, y: 0.22999999}
+      - {x: -0.17999999, y: 0.07}
+      - {x: -0.41, y: 0.099999994}
+      - {x: -0.41, y: 0.01}
+      - {x: -0.24, y: -0.13}
+      - {x: -0.32999998, y: -0.29}
+      - {x: -0.24, y: -0.31}
+      - {x: -0.099999994, y: -0.24}
+      - {x: -0.089999996, y: -0.29999998}
+      - {x: -0.04, y: -0.32}
+      - {x: 0.08, y: -0.35999998}
+      - {x: 0.16, y: -0.35999998}
+      - {x: 0.19999999, y: -0.25}
+      - {x: 0.26999998, y: -0.21}
+      - {x: 0.22999999, y: -0.14999999}
+--- !u!114 &2086793375
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 924209484}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae541563c51116647b4b73ccc4b11c98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pareja: {fileID: 710392491}
+  onMatch:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 3505560}
+        m_TargetAssemblyTypeName: ManagerActividad, Assembly-CSharp
+        m_MethodName: AgregarRespuestaCorrecta
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  onTry:
+    m_PersistentCalls:
+      m_Calls: []
+  onUnmatch:
+    m_PersistentCalls:
+      m_Calls: []
+  moveToMatchPosition: 0
+  disableOnMatch: 1
+--- !u!114 &2086793376
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 924209484}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a53258acc8eca244fbba19d23474ded1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onMouseDown:
+    m_PersistentCalls:
+      m_Calls: []
+  onMouseUp:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2086793375}
+        m_TargetAssemblyTypeName: Emparejar, Assembly-CSharp
+        m_MethodName: BuscarPareja
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  destacador: {fileID: 0}
+--- !u!60 &2086793377
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 924209484}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.76, y: 0.55}
+    newSize: {x: 0.76, y: 0.55}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.19999999, y: -0.044999998}
+      - {x: 0.38, y: 0.074999996}
+      - {x: 0.38, y: 0.125}
+      - {x: 0.14999999, y: 0.21499999}
+      - {x: 0.14999999, y: 0.275}
+      - {x: 0.049999997, y: 0.275}
+      - {x: -0.21, y: 0.195}
+      - {x: -0.28, y: 0.175}
+      - {x: -0.32999998, y: -0.005}
+      - {x: -0.38, y: -0.074999996}
+      - {x: -0.38, y: -0.13499999}
+      - {x: -0.25, y: -0.185}
+      - {x: -0.14999999, y: -0.275}
+      - {x: -0.07, y: -0.275}
+      - {x: 0.07, y: -0.185}
+      - {x: 0.25, y: -0.195}
+      - {x: 0.29, y: -0.175}

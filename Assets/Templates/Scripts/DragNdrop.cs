@@ -15,6 +15,8 @@ public class DragNdrop : MonoBehaviour
     {
         if(destacador)destacador.SetActive(false);
     }
+
+    
     private void OnMouseDown()
     {
         if (blockComponent) return;

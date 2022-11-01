@@ -105,4 +105,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Actividades/IB018 - Causa y Efecto/ib018 causayefecto.unity
     guid: d98f4612d2348ce4588fa914f5ce55c5
+  - enabled: 1
+    path: Assets/Actividades/hojas/hojas.unity
+    guid: 6ed2d8ae36675f64995c7edabf58aa6f
+  - enabled: 1
+    path: Assets/Actividades/vocales/A/_vocalA.unity
+    guid: afd6bd34551403644bd2b2ce5264bfac
   m_configObjects: {}
