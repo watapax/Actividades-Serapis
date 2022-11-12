@@ -38,6 +38,11 @@ public class ZonaAncla:MonoBehaviour
         {
             AnclaMeshOutline.enabled = false;
         }
+
+        if (tipoAncla == AnclaTypes.ACTIVIDAD)
+        {
+            transform.Find("Indicator").gameObject.SetActive(false);
+        }
     }
 
     void Update()
