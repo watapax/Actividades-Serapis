@@ -196,7 +196,7 @@ TextureImporter:
         width: 166
         height: 78
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 40, y: 41, z: 40, w: 34}
       outline: []
       physicsShape: []
@@ -204,6 +204,27 @@ TextureImporter:
       bones: []
       spriteID: 42b1451c7c3b9cb46913c4901380bfb2
       internalID: -1051779667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIElements_3
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 166
+        width: 166
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 40, y: 41, z: 40, w: 34}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 965c80c2c050fd548b572862e644c414
+      internalID: 1730623307
       vertices: []
       indices: 
       edges: []
