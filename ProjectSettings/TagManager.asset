@@ -16,6 +16,7 @@ TagManager:
   - mes
   - 4
   - 5
+  - area
   layers:
   - Default
   - TransparentFX
