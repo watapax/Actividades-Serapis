@@ -38,6 +38,11 @@ public class ZonaAncla:MonoBehaviour
         {
             AnclaMeshOutline.enabled = false;
         }
+
+        if (tipoAncla == AnclaTypes.ACTIVIDAD)
+        {
+            transform.Find("Indicator").gameObject.SetActive(false);
+        }
     }
 
     void Update()
@@ -78,16 +83,33 @@ public class ZonaAncla:MonoBehaviour
         }*/
     }
 
+    void ActivateAnclaInfo()
+    {
+        HUD.Instance.ShowAnclaInfo();
+        HUD.Instance.SetAnclaInfo(tipoAncla.ToString(), nombreAncla, previewAncla);
+        StartCoroutine(WaitAndEnableClick(0.6f, true)); //Waits for animation to end before enabling teleport
+        Cursor.lockState = CursorLockMode.Confined;
+        Cursor.visible = true;
+    }
+
+    void DeactivateAnclaInfo()
+    {
+        HUD.Instance.HideAnclaInfo();
+        playerCanClick = false;
+        
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
+    }
+
     private void OnTriggerEnter(Collider other)
     {
         if (AnclaMeshOutline != null)
         {
             AnclaMeshOutline.enabled = true;
         }
+
         player = other.gameObject;
-        HUD.Instance.ShowAnclaInfo();
-        HUD.Instance.SetAnclaInfo(tipoAncla.ToString(), nombreAncla, previewAncla);
-        StartCoroutine(WaitAndEnableClick(0.6f, true)); //Waits for animation to end before enabling teleport
+        ActivateAnclaInfo();
     }
 
     private void OnTriggerExit(Collider other)
@@ -98,8 +120,7 @@ public class ZonaAncla:MonoBehaviour
         }
 
         player = null;
-        HUD.Instance.HideAnclaInfo();
-        playerCanClick = false;
+        DeactivateAnclaInfo();
     }
 
     private IEnumerator WaitAndEnableClick(float waitTime, bool newValue)
