@@ -87,9 +87,9 @@ public class ZonaAncla:MonoBehaviour
     {
         HUD.Instance.ShowAnclaInfo();
         HUD.Instance.SetAnclaInfo(tipoAncla.ToString(), nombreAncla, previewAncla);
-        StartCoroutine(WaitAndEnableClick(0.6f, true)); //Waits for animation to end before enabling teleport
-        Cursor.lockState = CursorLockMode.Confined;
-        Cursor.visible = true;
+        StartCoroutine(WaitAndEnableClick(0.4f, true)); //Waits for animation to end before enabling teleport
+        //Cursor.lockState = CursorLockMode.Confined;
+        //Cursor.visible = true;
     }
 
     void DeactivateAnclaInfo()
@@ -97,8 +97,8 @@ public class ZonaAncla:MonoBehaviour
         HUD.Instance.HideAnclaInfo();
         playerCanClick = false;
         
-        Cursor.lockState = CursorLockMode.Locked;
-        Cursor.visible = false;
+        //Cursor.lockState = CursorLockMode.Locked;
+        //Cursor.visible = false;
     }
 
     private void OnTriggerEnter(Collider other)
