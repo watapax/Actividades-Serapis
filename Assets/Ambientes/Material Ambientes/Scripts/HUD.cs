@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
-public class HUD : MonoBehaviour
+public class HUD:MonoBehaviour
 {
     public GameObject InfoGameObject;
     public TextMeshProUGUI sceneTypeText;
@@ -14,24 +14,24 @@ public class HUD : MonoBehaviour
 
     //Singleton stuff
     public static HUD Instance { get; private set; }
-    private void Awake() 
-    { 
+    private void Awake()
+    {
         // If there is an instance, and it's not me, delete myself.
-        if (Instance != null && Instance != this) 
-        { 
-            Destroy(this); 
-        } 
-        else 
-        { 
-            Instance = this; 
-        } 
+        if (Instance != null && Instance != this)
+        {
+            Destroy(this);
+        } else
+        {
+            Instance = this;
+        }
     }
 
     public void ShowAnclaInfo()
     {
         //InfoGameObject.SetActive(true);
+        InfoGameObject.GetComponent<Animator>().Play("Hide");
         InfoGameObject.GetComponent<Animator>().SetBool("IsShowing", true);
-        //InfoGameObject.GetComponent<Animator>().Play("Show");
+        InfoGameObject.GetComponent<Animator>().Play("Show");
         isShowing = true;
     }
 
@@ -43,23 +43,24 @@ public class HUD : MonoBehaviour
         isShowing = false;
     }
 
-    public void SetAnclaInfo(string newType,string newName, Sprite newSprite)
+    public void SetAnclaInfo(string newType, string newName, Sprite newSprite)
     {
         sceneTypeText.SetText(newType);
         sceneNametext.SetText(newName);
         image.sprite = newSprite;
 
-        if(newType == "ACTIVIDAD")
+        if (newType == "ACTIVIDAD")
         {
-            sceneNametext.color = new Color(1,0.950f,0.350f);
+            sceneNametext.color = new Color(1, 0.950f, 0.350f);
             //sceneNametext.color = new Color32(255,235,83);
-        }
-        else
+        } else
         {
-            sceneNametext.color = new Color(0.55f,0.85f,1f);
+            sceneNametext.color = new Color(0.55f, 0.85f, 1f);
             //sceneNametext.color = new Color32(58,200,81);
         }
     }
+
+    
 
 
 }
